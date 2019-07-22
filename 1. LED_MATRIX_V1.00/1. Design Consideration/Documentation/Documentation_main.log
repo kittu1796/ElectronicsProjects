@@ -1,10 +1,13 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  21 JUL 2019 13:25
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  23 JUL 2019 01:09
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("D:\MiKTeX 2.9\tex\latex\base\article.cls"
+\@input{PreambleForLatexDocumentation.aux}
+\openout2 = `PreambleForLatexDocumentation.aux'.
+
+(PreambleForLatexDocumentation.tex ("D:\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("D:\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -184,29 +187,29 @@ Package tocbibind Note: Using section or other style headings.
 
 )
 \c@imageCounter=\count104
-
+)
 
 LaTeX Warning: Unused global option(s):
     [15pt].
 
 (Documentation_main.aux (ProjectDescription.aux) (ListOfTools.aux)
-(Hardware.aux) (Software.aux) (PCB.aux) (MechanicalCAD.aux))
+(Hardware.aux) (Software.aux) (PcbDesign.aux) (MechanicalCAD.aux))
 \openout1 = `Documentation_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -243,6 +246,8 @@ LaTeX Font Info:    ... okay on input line 39.
 
 (TitlePage.tex [1
 
+
+
 ]) [0
 
 ] (Documentation_main.toc
@@ -255,13 +260,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 ("D:\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1
+
+])
 \tf@toc=\write3
 \openout3 = `Documentation_main.toc'.
 
- [1
-
-]
+ [2]
 \openout2 = `ProjectDescription.aux'.
 
  (ProjectDescription.tex
@@ -286,48 +291,56 @@ File: ./images/BD_LED_MATRIX_V1.png Graphic file (type bmp)
 ]
 \openout2 = `Hardware.aux'.
 
- (Hardware.tex) [4
+ (Hardware.tex
+(Documentation/Hardware/Introduction.tex)
+(Documentation/Hardware/ControlUnit.tex
+(Documentation/Hardware/ControlUnit/MCU.tex)
+(Documentation/Hardware/ControlUnit/OscillatorCircuit.tex)
+(Documentation/Hardware/ControlUnit/Reset.tex)
+(Documentation/Hardware/ControlUnit/PortAssignment.tex)
+(Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
+(Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
+(Documentation/Hardware/Input.tex)) [4
 
 
-] [4
+] [5] [5
 
 
 ]
 \openout2 = `Software.aux'.
 
- (Software.tex)
-[5
-
-
-] [5
-
-
-]
-\openout2 = `PCB.aux'.
-
-
-No file PCB.tex.
-[6
-
+ (Software.tex) [6
 
 
 ] [6
 
+
+]
+\openout2 = `PcbDesign.aux'.
+
+
+(PcbDesign.tex) [7
+
+
+] [7
+
+
 ]
 \openout2 = `MechanicalCAD.aux'.
 
- (MechanicalCAD.tex) [7
+ (MechanicalCAD.tex) [8
 
 
-] (Documentation_main.aux (ProjectDescription.aux) (ListOfTools.aux) (Hardware.
-aux) (Software.aux) (PCB.aux) (MechanicalCAD.aux)) ) 
+] (Documentation_main.aux
+(ProjectDescription.aux) (ListOfTools.aux) (Hardware.aux) (Software.aux)
+(PcbDesign.aux) (MechanicalCAD.aux)) ) 
 Here is how much of TeX's memory you used:
- 2670 strings out of 427836
- 33188 string characters out of 3155125
- 109597 words of memory out of 3000000
+ 2707 strings out of 427836
+ 34391 string characters out of 3155125
+ 111633 words of memory out of 3000000
  6560 multiletter control sequences out of 15000+200000
  10071 words of font info for 52 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 30i,10n,43p,384b,260s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,11n,45p,384b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Documentation_main.pdf (15 pages).
+Output written on Documentation_main.pdf (17 pages).
