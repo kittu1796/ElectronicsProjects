@@ -1,0 +1,71 @@
+\documentclass[15pt]{article}
+
+%-------------------------------------------
+%use package
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage[nottoc, notlot, notlof]{tocbibind}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{\uppercase{\textit{16x6 LED Matrix}}}
+\fancyhead[R]{\textit{V1.0}}
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\footrulewidth}{2pt}
+\parindent 0ex
+%\setlength{\parindent}{4em}
+%\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
+\newcounter{imageCounter}
+\refstepcounter{imageCounter}
+%-------------------------------------------
+
+\begin{document}
+	
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{1cm}
+			%\Large{\textbf{Transformer Power Supply}}
+			\vfill
+			\line(1,0){400}\\[1mm]
+			\Huge{\textsc{Single Colour LED Matrix}}\\ [3mm]
+			\huge{\textbf{-16x6 RED-}}\\ [1mm]
+			\line(1,0){400}\\
+			\vfill 
+			\large{By : Ashwini Kumar Gupta\\
+			B.E  Electronics \& Telecommunication\\}
+			\today\\
+			
+		\end{center}
+	\end{titlepage}
+	
+	\tableofcontents
+	\thispagestyle{empty}
+	\clearpage
+	
+	\setcounter{page}{1}
+	
+	\part{Design Consideration}
+		
+		
+	\section{Assignment Details}
+	Select 'Renesas RL78 / G12 family ' Microcontroller suitable for following Application	
+		\begin{enumerate}
+			\item Interface 12VDC, 20mA Buzzer (use HA6 Circuit )
+			\item Interface HONGFA Relay , 1Form A , 12 VdC coil supply , 10A Contact rating (use HA9 circuit)
+			\item Sense Healthiness of Mains AC Power supply , Mains supply > 100VAC is healthy condition ( use HA8 circuit)
+			\item Measure Sensor response , which O/P is in the range of 5mV to 100mV, amplified suitably for Single ended ADC of selected Microcontroller (use HA7 circuit)
+			\item  Interface non isolated RS 485 port. (use TI make SN65HVD08)
+		\end{enumerate}
+		
+		
+	\section{Block Diagram}
+		
+\end{document}

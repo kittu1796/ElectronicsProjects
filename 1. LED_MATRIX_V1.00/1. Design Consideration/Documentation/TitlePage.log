@@ -1,0 +1,246 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  21 JUL 2019 11:25
+entering extended mode
+**./TitlePage.tex
+(TitlePage.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ^^I^^I\begin{center}
+                        
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+
+Overfull \hbox (400.0pt too wide) in paragraph at lines 6--6
+ | 
+ []
+
+! Undefined control sequence.
+l.7 ^^I^^I^^I\Huge
+                  {\textsc{Single Colour LED Matrix}}\\ [3mm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.38pt too wide) in paragraph at lines 7--7
+ []\TU/lmr/m/sc/10 Single 
+ []
+
+
+Overfull \hbox (37.86pt too wide) in paragraph at lines 7--7
+ \TU/lmr/m/sc/10 Colour 
+ []
+
+
+Overfull \hbox (22.54001pt too wide) in paragraph at lines 7--7
+ \TU/lmr/m/sc/10 LED 
+ []
+
+
+Overfull \hbox (19.8pt too wide) in paragraph at lines 7--7
+ \TU/lmr/m/sc/10 Ma- 
+ []
+
+
+Overfull \hbox (21.08pt too wide) in paragraph at lines 7--7
+ \TU/lmr/m/sc/10 trix 
+ []
+
+! Undefined control sequence.
+l.8 ^^I^^I^^I\huge
+                  {\textbf{-16x6 RED-}}\\ [1mm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (3.83pt too wide) in paragraph at lines 8--8
+ []\TU/lmr/bx/n/10 - 
+ []
+
+
+Overfull \hbox (23.32pt too wide) in paragraph at lines 8--8
+ \TU/lmr/bx/n/10 16x6 
+ []
+
+
+Overfull \hbox (28.84pt too wide) in paragraph at lines 8--8
+ \TU/lmr/bx/n/10 RED- 
+ []
+
+
+Overfull \hbox (400.0pt too wide) in paragraph at lines 9--9
+ []| 
+ []
+
+! Undefined control sequence.
+l.11 ^^I^^I^^I\large
+                    {By : Ashwini Kumar Gupta\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no B in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 ^^I^^I^^IB\cdot
+                     Engg  Electronics \& Telecommunication\\}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...t Engg  Electronics \& Telecommunication\\
+                                                  }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 ...t Engg  Electronics \& Telecommunication\\
+                                                  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.12 ...t Engg  Electronics \& Telecommunication\\
+                                                  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (175.75829pt too wide) in paragraph at lines 12--12
+ []$\OMS/cmsy/m/n/10 ^^A\OML/cmm/m/it/10 EnggElectronics\OT1/cmr/m/n/10 &\OML/c
+mm/m/it/10 Telecommunication[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.12 ... Engg  Electronics \& Telecommunication\\}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.13 ^^I^^I^^I\today
+                    \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ^^I^^I^^I\today\\
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./TitlePage.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 16 strings out of 427836
+ 290 string characters out of 3155125
+ 62054 words of memory out of 3000000
+ 4069 multiletter control sequences out of 15000+200000
+ 3656 words of font info for 16 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 18i,2n,12p,85b,126s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

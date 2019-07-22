@@ -1,0 +1,6 @@
+\contentsline {subsection}{\numberline {0.1}Introduction}{1}
+\contentsline {subsection}{\numberline {0.2}Hardware}{1}
+\contentsline {subsubsection}{\numberline {0.2.1}MCU}{1}
+\contentsline {subsubsection}{\numberline {0.2.2}LED Matrix}{1}
+\contentsline {subsubsection}{\numberline {0.2.3}Power supply}{1}
+\contentsline {subsubsection}{\numberline {0.2.4}Input}{2}

@@ -1,0 +1,67 @@
+\documentclass[15pt]{article}
+
+%-------------------------------------------
+%use package
+\usepackage[margin=1in]{geometry}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage[nottoc, notlot, notlof]{tocbibind}
+
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{\uppercase{\textit{16x6 LED Matrix}}}
+\fancyhead[R]{\textit{V1.0}}
+\fancyfoot[C]{\thepage}
+
+\graphicspath{ {./images/} }
+\renewcommand{\footrulewidth}{2pt}
+\parindent 0ex
+%\setlength{\parindent}{4em}
+%\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
+\newcounter{imageCounter}
+\refstepcounter{imageCounter}
+%-------------------------------------------
+
+\begin{document}
+	
+	\input{TitlePage}
+	\blankpage
+	
+	\tableofcontents
+	\thispagestyle{empty}
+	\clearpage
+	
+	\setcounter{page}{1}
+	
+	\include{ProjectDescription}
+	\blankpage
+	
+	\include{ListOfTools}
+	\blankpage
+	
+	\include{Hardware}
+	\blankpage
+	
+	\include{Software}
+	\blankpage
+	
+	\include{PCB Design}
+	\blankpage
+	
+	\include{MechanicalCAD}
+	
+\end{document}
