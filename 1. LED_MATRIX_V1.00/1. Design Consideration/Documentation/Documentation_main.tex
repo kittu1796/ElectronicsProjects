@@ -1,20 +1,41 @@
 \include{PreambleForLatexDocumentation}
 
+%--------------------------------------------
+\include{ListOfAbbrevations}
 %-------------------------------------------
 %Begin main document
 \begin{document}
 	
+	
 	\input{TitlePage}
 	\blankpage
+	
+	%roman page numbering before Project Description	
+	\pagenumbering{roman}
 	
 	\tableofcontents
 	\thispagestyle{empty}
 	\clearpage
 	
+	\listoffigures
+	\clearpage
+	
+	\listoftables
+	\clearpage
+	
+	\section*{Declaration}
+	\addcontentsline{toc}{section}{Declaration}
+	
+	%\chapter*{Preface}
+	%\addcontentsline{toc}{chapter}{Preface}
+	
+	\pagenumbering{arabic}
 	\setcounter{page}{1}
 	
 	%\twocolumn 
 	%\onecolumn
+	
+
 	\include{ProjectDescription}
 	\blankpage
 	
@@ -31,13 +52,21 @@
 	\blankpage
 	
 	\include{MechanicalCAD}
-	
-	%Appendices
-	
 	\blankpage
-	%Refrences
-	\bibliographystyle{ieee}
-	\bibliography{bibfile}	
 	
-	\end{document}
+	\begin{multicols}{2}
+		\printnoidxglossary[type=acronym]
+    	\printacronyms
+		\blankpage
+		
+		%Appendices
+	
+	
+		%Refrences
+		\bibliographystyle{ieee}
+		\bibliography{bibfile}	
+	
+	\end{multicols}
+	
+\end{document}
 %End main document

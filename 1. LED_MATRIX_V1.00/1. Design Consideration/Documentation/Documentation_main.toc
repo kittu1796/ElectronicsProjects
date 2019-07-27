@@ -1,36 +1,38 @@
-\contentsline {section}{\numberline {1}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Project Description}}\mathsurround \z@ $\relax }}{1}
-\contentsline {subsection}{\numberline {1.1}Introduction}{1}
-\contentsline {subsection}{\numberline {1.2}Hardware}{1}
-\contentsline {subsubsection}{\numberline {1.2.1}MCU}{1}
-\contentsline {subsubsection}{\numberline {1.2.2}LED Matrix}{1}
-\contentsline {subsubsection}{\numberline {1.2.3}Power supply}{1}
-\contentsline {subsubsection}{\numberline {1.2.4}Input}{1}
-\contentsline {section}{\numberline {2}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {List Of Tools}}\mathsurround \z@ $\relax }}{3}
-\contentsline {subsection}{\numberline {2.1}Introduction}{3}
-\contentsline {section}{\numberline {3}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Hardware}}\mathsurround \z@ $\relax }}{4}
-\contentsline {subsection}{\numberline {3.1}Introduction}{4}
-\contentsline {subsection}{\numberline {3.2}Control Unit}{4}
-\contentsline {subsubsection}{\numberline {3.2.1}MCU}{4}
-\contentsline {subsubsection}{\numberline {3.2.2}Oscillator Circuit}{5}
-\contentsline {subsubsection}{\numberline {3.2.3}Reset}{5}
-\contentsline {subsubsection}{\numberline {3.2.4}Port Assignment}{5}
-\contentsline {subsubsection}{\numberline {3.2.5}Voltage Level Indicator}{5}
-\contentsline {subsubsection}{\numberline {3.2.6}Display Intensity controller}{5}
-\contentsline {subsection}{\numberline {3.3}Power Supply}{5}
-\contentsline {subsubsection}{\numberline {3.3.1}Power Switch}{5}
-\contentsline {subsubsection}{\numberline {3.3.2}Capacitive Power Supply}{5}
-\contentsline {subsubsection}{\numberline {3.3.3}Filter}{5}
-\contentsline {subsubsection}{\numberline {3.3.4}voltage Regulation}{5}
-\contentsline {subsubsection}{\numberline {3.3.5}Current Consumption}{5}
-\contentsline {subsection}{\numberline {3.4}LED Matrix}{5}
-\contentsline {subsubsection}{\numberline {3.4.1}LED}{5}
-\contentsline {subsubsection}{\numberline {3.4.2}Transistors}{5}
-\contentsline {subsubsection}{\numberline {3.4.3}Shift Registers}{5}
-\contentsline {subsection}{\numberline {3.5}Input}{5}
-\contentsline {section}{\numberline {4}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Software}}\mathsurround \z@ $\relax }}{6}
-\contentsline {subsection}{\numberline {4.1}Introduction}{6}
-\contentsline {section}{\numberline {5}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {PCB Design}}\mathsurround \z@ $\relax }}{7}
-\contentsline {subsection}{\numberline {5.1}Introduction}{7}
-\contentsline {section}{\numberline {6}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Mechanical CAD}}\mathsurround \z@ $\relax }}{8}
-\contentsline {subsection}{\numberline {6.1}Introduction}{8}
-\contentsline {section}{References}{9}
+\contentsline {section}{Declaration}{1}
+\contentsline {section}{\numberline {1}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Project Description}}\mathsurround \z@ $\relax }}{2}
+\contentsline {subsection}{\numberline {1.1}Introduction}{2}
+\contentsline {subsection}{\numberline {1.2}Hardware}{2}
+\contentsline {subsubsection}{\numberline {1.2.1}MCU}{2}
+\contentsline {subsubsection}{\numberline {1.2.2}LED Matrix}{2}
+\contentsline {subsubsection}{\numberline {1.2.3}Power supply}{2}
+\contentsline {subsubsection}{\numberline {1.2.4}Input}{3}
+\contentsline {section}{\numberline {2}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {List Of Tools}}\mathsurround \z@ $\relax }}{4}
+\contentsline {subsection}{\numberline {2.1}Introduction}{4}
+\contentsline {section}{\numberline {3}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Hardware}}\mathsurround \z@ $\relax }}{5}
+\contentsline {subsection}{\numberline {3.1}Introduction}{5}
+\contentsline {subsection}{\numberline {3.2}Control Unit}{5}
+\contentsline {subsubsection}{\numberline {3.2.1}MCU}{5}
+\contentsline {subsubsection}{\numberline {3.2.2}Oscillator Circuit}{6}
+\contentsline {subsubsection}{\numberline {3.2.3}Reset}{6}
+\contentsline {subsubsection}{\numberline {3.2.4}Port Assignment}{6}
+\contentsline {subsubsection}{\numberline {3.2.5}Voltage Level Indicator}{6}
+\contentsline {subsubsection}{\numberline {3.2.6}Display Intensity controller}{6}
+\contentsline {subsection}{\numberline {3.3}Power Supply}{6}
+\contentsline {subsubsection}{\numberline {3.3.1}Power Switch}{6}
+\contentsline {subsubsection}{\numberline {3.3.2}Capacitive Power Supply}{6}
+\contentsline {subsubsection}{\numberline {3.3.3}Filter}{6}
+\contentsline {subsubsection}{\numberline {3.3.4}voltage Regulation}{6}
+\contentsline {subsubsection}{\numberline {3.3.5}Current Consumption}{6}
+\contentsline {subsection}{\numberline {3.4}LED Matrix}{6}
+\contentsline {subsubsection}{\numberline {3.4.1}LED}{6}
+\contentsline {subsubsection}{\numberline {3.4.2}Transistors}{6}
+\contentsline {subsubsection}{\numberline {3.4.3}Shift Registers}{6}
+\contentsline {subsection}{\numberline {3.5}Input}{6}
+\contentsline {section}{\numberline {4}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Software}}\mathsurround \z@ $\relax }}{7}
+\contentsline {subsection}{\numberline {4.1}Introduction}{7}
+\contentsline {section}{\numberline {5}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {PCB Design}}\mathsurround \z@ $\relax }}{8}
+\contentsline {subsection}{\numberline {5.1}Introduction}{8}
+\contentsline {section}{\numberline {6}\relax \fontsize {20.74}{25}\selectfont {\relax $\@@underline {\hbox {Mechanical CAD}}\mathsurround \z@ $\relax }}{9}
+\contentsline {subsection}{\numberline {6.1}Introduction}{9}
+\contentsline {section}{Acronyms}{10}
+\contentsline {section}{References}{11}
