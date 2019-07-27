@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  27 JUL 2019 20:59
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  27 JUL 2019 23:34
 entering extended mode
 **./PreambleForLatexDocumentation.tex
 (PreambleForLatexDocumentation.tex
@@ -525,6 +525,22 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glstreeindent=\skip70
 ))
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2019/07/16 v2.11 Sectioning titles
+\ttl@box=\box66
+\beforetitleunit=\skip71
+\aftertitleunit=\skip72
+\ttl@plus=\dimen177
+\ttl@minus=\dimen178
+\ttl@toksa=\toks37
+\titlewidth=\dimen179
+\titlewidthlast=\dimen180
+\titlewidthfirst=\dimen181
+)
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
 \c@imageCounter=\count169
 )
 ! Emergency stop.
@@ -534,11 +550,11 @@ Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 
  
 Here is how much of TeX's memory you used:
- 8018 strings out of 427836
- 112432 string characters out of 3155125
- 249757 words of memory out of 3000000
- 11863 multiletter control sequences out of 15000+200000
+ 8352 strings out of 427836
+ 116504 string characters out of 3155125
+ 257335 words of memory out of 3000000
+ 12191 multiletter control sequences out of 15000+200000
  3648 words of font info for 15 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 45i,0n,43p,1996b,40s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,0n,43p,2017b,40s stack positions out of 5000i,500n,10000p,200000b,50000s
 No pages of output.

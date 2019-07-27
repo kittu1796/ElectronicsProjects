@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  27 JUL 2019 22:47
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  28 JUL 2019 00:04
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -528,6 +528,18 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glstreeindent=\skip70
 ))
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2019/07/16 v2.11 Sectioning titles
+\ttl@box=\box66
+\beforetitleunit=\skip71
+\aftertitleunit=\skip72
+\ttl@plus=\dimen177
+\ttl@minus=\dimen178
+\ttl@toksa=\toks37
+\titlewidth=\dimen179
+\titlewidthlast=\dimen180
+\titlewidthfirst=\dimen181
+)
 \c@imageCounter=\count169
 )
 \@input{ListOfAbbrevations.aux}
@@ -542,20 +554,20 @@ LaTeX Warning: Unused global option(s):
 (Hardware.aux) (Software.aux) (PcbDesign.aux) (MechanicalCAD.aux))
 \openout1 = `Documentation_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -630,8 +642,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [4
 
-] [1
-
 ]
 \openout2 = `ProjectDescription.aux'.
 
@@ -639,29 +649,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package lettrine.sty Info: Targeted height = 23.14pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 23.03831pt (T);
-(lettrine.sty)             reported on input line 17.
- [2
+(lettrine.sty)             reported on input line 12.
+ [1
+
+
 
 ]
 File: ./images/BD_LED_MATRIX_V1.png Graphic file (type bmp)
 <./images/BD_LED_MATRIX_V1.png>
-) [3] [3
+) [2] [2
 
 
 ]
 \openout2 = `ListOfTools.aux'.
 
 
-(ListOfTools.tex) [4
+(ListOfTools.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[][]\TU/lmr/bx/n/20.74 List Of Tools|
+ []
+
+) [3
 
 
-] [4
+] [3
 
 
 ]
 \openout2 = `Hardware.aux'.
 
  (Hardware.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[][]\TU/lmr/bx/n/20.74 Hardware|
+ []
+
 (Documentation/Hardware/Introduction.tex)
 (Documentation/Hardware/ControlUnit.tex
 (Documentation/Hardware/ControlUnit/MCU.tex
@@ -669,7 +690,7 @@ Package lettrine.sty Info: Targeted height = 23.14pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 23.03831pt (T);
 (lettrine.sty)             reported on input line 6.
- [5
+ [4
 
 
 ])
@@ -678,52 +699,66 @@ Package lettrine.sty Info: Targeted height = 23.14pt
 (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex)) [6] [6
+(Documentation/Hardware/Input.tex)) [5] [5
 
 
 ]
 \openout2 = `Software.aux'.
 
- (Software.tex) [7
+ (Software.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[][]\TU/lmr/bx/n/20.74 Software|
+ []
+
+) [6
+
+
+] [6
+
+
+]
+\openout2 = `PcbDesign.aux'.
+
+ (PcbDesign.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[][]\TU/lmr/bx/n/20.74 PCB Design|
+ []
+
+) [7
 
 
 ] [7
 
 
 ]
-\openout2 = `PcbDesign.aux'.
+\openout2 = `MechanicalCAD.aux'.
 
+ (MechanicalCAD.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[][]\TU/lmr/bx/n/20.74 Mechanical CAD|
+ []
 
-(PcbDesign.tex) [8
+) [8
 
 
 ] [8
 
 
 ]
-\openout2 = `MechanicalCAD.aux'.
-
- (MechanicalCAD.tex) [9
-
-
-] [9
-
-
-]
 Using TeX to sort glossary entries---this may take a while
 No file Documentation_main.acr.
-[10
+[9
 
-] [10] (Documentation_main.bbl) [11] (Documentation_main.aux
+] [9] (Documentation_main.bbl) [10] (Documentation_main.aux
 (ProjectDescription.aux) (ListOfTools.aux) (Hardware.aux) (Software.aux)
 (PcbDesign.aux) (MechanicalCAD.aux)) ) 
 Here is how much of TeX's memory you used:
- 8507 strings out of 427836
- 120255 string characters out of 3155125
- 265983 words of memory out of 3000000
- 12208 multiletter control sequences out of 15000+200000
- 10087 words of font info for 54 fonts, out of 3000000 for 9000
+ 8772 strings out of 427836
+ 123504 string characters out of 3155125
+ 272612 words of memory out of 3000000
+ 12475 multiletter control sequences out of 15000+200000
+ 5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 49i,11n,45p,2025b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,11n,45p,2074b,535s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Documentation_main.pdf (24 pages).
+Output written on Documentation_main.pdf (23 pages).

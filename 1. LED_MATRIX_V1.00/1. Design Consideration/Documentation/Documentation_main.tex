@@ -1,7 +1,6 @@
-\include{PreambleForLatexDocumentation}
+\include{PreambleForLatexDocumentation} %preamble of latex document
+\include{ListOfAbbrevations} %acronym declaration file.
 
-%--------------------------------------------
-\include{ListOfAbbrevations}
 %-------------------------------------------
 %Begin main document
 \begin{document}
@@ -23,19 +22,16 @@
 	\listoftables
 	\clearpage
 	
-	\section*{Declaration}
-	\addcontentsline{toc}{section}{Declaration}
+	%\chapter*{Declaration}
+	%\addcontentsline{toc}{chapter}{Declaration}
 	
 	%\chapter*{Preface}
 	%\addcontentsline{toc}{chapter}{Preface}
 	
 	\pagenumbering{arabic}
-	\setcounter{page}{1}
+	\clearpage
 	
-	%\twocolumn 
-	%\onecolumn
 	
-
 	\include{ProjectDescription}
 	\blankpage
 	
