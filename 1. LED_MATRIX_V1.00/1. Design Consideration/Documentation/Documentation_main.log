@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  23 JUL 2019 01:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  27 JUL 2019 16:32
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -185,8 +185,187 @@ Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
+) (C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\lettrine\lettrine.sty
+
+LaTeX Warning: You have requested release `2018-04-01' of LaTeX,
+               but only release `2017-04-15' is available.
+
+File: lettrine.sty 2019-04-06 v2.22 (Daniel Flipo)
+
+Package lettrine Warning: Your LaTeX kernel is too old to provide access
+(lettrine)                to former versions of the lettrine package.
+(lettrine)                If you need rollback, please upgrade
+(lettrine)                your LaTeX kernel (2018-04-01 or newer),
+(lettrine)                otherwise you are fine; reported on input line 41.
+
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\generic\minifp\minifp.sty
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
+-based programing language.
+\MFP@loopctr=\count104
 )
-\c@imageCounter=\count104
+\c@DefaultLines=\count105
+\c@DefaultDepth=\count106
+\DefaultFindent=\dimen123
+\DefaultNindent=\dimen124
+\DefaultSlope=\dimen125
+\DiscardVskip=\dimen126
+\L@lbox=\box31
+\L@tbox=\box32
+\c@L@lines=\count107
+\c@L@depth=\count108
+\L@Pindent=\dimen127
+\L@Findent=\dimen128
+\L@Nindent=\dimen129
+\L@lraise=\dimen130
+\L@first=\dimen131
+\L@next=\dimen132
+\L@slope=\dimen133
+\L@height=\dimen134
+\L@novskip=\dimen135
+\L@target@ht=\dimen136
+\L@target@dp=\dimen137
+\L@target@tht=\dimen138
+\LettrineWidth=\dimen139
+\LettrineHeight=\dimen140
+\LettrineDepth=\dimen141
+\Llist@everypar=\toks25
+
+Loading lettrine.cfg
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\lettrine\lettrine.cfg))
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count109
+\c@@ppsavesec=\count110
+\c@@ppsaveapp=\count111
+)
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+("D:\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("D:\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("D:\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count112
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box33
+)
+\tc@llx=\dimen142
+\tc@lly=\dimen143
+\tc@urx=\dimen144
+\tc@ury=\dimen145
+Package trimclip Info: Using driver 'tc-xetex.def'.
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen146
+\adjbox@Height=\dimen147
+\adjbox@Depth=\dimen148
+\adjbox@Totalheight=\dimen149
+\adjbox@pwidth=\dimen150
+\adjbox@pheight=\dimen151
+\adjbox@pdepth=\dimen152
+\adjbox@ptotalheight=\dimen153
+
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count113
+)
+("D:\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box34
+\sift@deathcycles=\count114
+\@vwid@loff=\dimen154
+\@vwid@roff=\dimen155
+))
+("D:\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count115
+\mult@box=\box35
+\multicol@leftmargin=\dimen156
+\c@unbalance=\count116
+\c@collectmore=\count117
+\doublecol@number=\count118
+\multicoltolerance=\count119
+\multicolpretolerance=\count120
+\full@width=\dimen157
+\page@free=\dimen158
+\premulticols=\dimen159
+\postmulticols=\dimen160
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box36
+\last@line=\box37
+\maxbalancingoverflow=\dimen161
+\mult@rightbox=\box38
+\mult@grightbox=\box39
+\mult@gfirstbox=\box40
+\mult@firstbox=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\c@columnbadness=\count121
+\c@finalcolumnbadness=\count122
+\last@try=\dimen162
+\multicolovershoot=\dimen163
+\multicolundershoot=\dimen164
+\mult@nat@firstbox=\box59
+\colbreak@box=\box60
+\mc@col@check@num=\count123
+)
+(C:\Users\Admin\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("D:\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count124
+\c@Blindtext=\count125
+\c@blind@countparstart=\count126
+\blind@countxx=\count127
+\blindtext@numBlindtext=\count128
+\blind@countyy=\count129
+\c@blindlist=\count130
+\c@blindlistlevel=\count131
+\c@blindlist@level=\count132
+\blind@listitem=\count133
+\c@blind@listcount=\count134
+\c@blind@levelcount=\count135
+\blind@mathformula=\count136
+\blind@Mathformula=\count137
+\c@blind@randomcount=\count138
+\c@blind@randommax=\count139
+\c@blind@pangramcount=\count140
+\c@blind@pangrammax=\count141
+)
+\c@imageCounter=\count142
 )
 
 LaTeX Warning: Unused global option(s):
@@ -248,12 +427,13 @@ LaTeX Font Info:    ... okay on input line 5.
 
 
 
+\providecommand \oddpage@label [2]{}
+
 ]) [0
 
 ] (Documentation_main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
-
-("D:\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("D:\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 1.
@@ -273,10 +453,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: ./images/BD_LED_MATRIX_V1.png Graphic file (type bmp)
 <./images/BD_LED_MATRIX_V1.png>
 
-[1
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [1
 
 
-]) [2] [2
+] [2] [2
 
 
 ]
@@ -294,16 +477,21 @@ File: ./images/BD_LED_MATRIX_V1.png Graphic file (type bmp)
  (Hardware.tex
 (Documentation/Hardware/Introduction.tex)
 (Documentation/Hardware/ControlUnit.tex
-(Documentation/Hardware/ControlUnit/MCU.tex)
+(Documentation/Hardware/ControlUnit/MCU.tex
+Package lettrine.sty Info: Targeted height = 23.14pt
+(lettrine.sty)             (no accent, loversize=0),
+(lettrine.sty)             Lettrine height = 23.03831pt (T);
+(lettrine.sty)             reported on input line 6.
+ [4
+
+
+])
 (Documentation/Hardware/ControlUnit/OscillatorCircuit.tex)
 (Documentation/Hardware/ControlUnit/Reset.tex)
 (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex)) [4
-
-
-] [5] [5
+(Documentation/Hardware/Input.tex)) [5] [5
 
 
 ]
@@ -331,16 +519,21 @@ File: ./images/BD_LED_MATRIX_V1.png Graphic file (type bmp)
  (MechanicalCAD.tex) [8
 
 
-] (Documentation_main.aux
-(ProjectDescription.aux) (ListOfTools.aux) (Hardware.aux) (Software.aux)
-(PcbDesign.aux) (MechanicalCAD.aux)) ) 
-Here is how much of TeX's memory you used:
- 2707 strings out of 427836
- 34391 string characters out of 3155125
- 111633 words of memory out of 3000000
- 6560 multiletter control sequences out of 15000+200000
- 10071 words of font info for 52 fonts, out of 3000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 31i,11n,45p,384b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+] [8
 
-Output written on Documentation_main.pdf (17 pages).
+
+] (Documentation_main.bbl)
+[9
+
+] (Documentation_main.aux (ProjectDescription.aux) (ListOfTools.aux)
+(Hardware.aux) (Software.aux) (PcbDesign.aux) (MechanicalCAD.aux)) ) 
+Here is how much of TeX's memory you used:
+ 4482 strings out of 427836
+ 60244 string characters out of 3155125
+ 149315 words of memory out of 3000000
+ 8283 multiletter control sequences out of 15000+200000
+ 10087 words of font info for 54 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 32i,11n,45p,402b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Documentation_main.pdf (19 pages).
