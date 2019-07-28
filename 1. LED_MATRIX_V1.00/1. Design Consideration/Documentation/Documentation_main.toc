@@ -1,3 +1,4 @@
+\contentsline {chapter}{List of Figures}{iii}
 \contentsline {section}{\numberline {1}Project Description}{1}
 \contentsline {subsection}{\numberline {1.1}Introduction}{1}
 \contentsline {subsection}{\numberline {1.2}Feature and Functionality}{1}
@@ -12,7 +13,7 @@
 \contentsline {subsection}{\numberline {3.1}Introduction}{4}
 \contentsline {subsection}{\numberline {3.2}Control Unit}{4}
 \contentsline {subsubsection}{\numberline {3.2.1}MCU}{4}
-\contentsline {subsubsection}{\numberline {3.2.2}Oscillator Circuit}{6}
+\contentsline {subsubsection}{\numberline {3.2.2}Oscillator Circuit}{5}
 \contentsline {subsubsection}{\numberline {3.2.3}Reset}{6}
 \contentsline {subsubsection}{\numberline {3.2.4}Port Assignment}{6}
 \contentsline {subsubsection}{\numberline {3.2.5}Voltage Level Indicator}{6}
@@ -34,5 +35,6 @@
 \contentsline {subsection}{\numberline {5.1}Introduction}{8}
 \contentsline {section}{\numberline {6}Mechanical CAD}{9}
 \contentsline {subsection}{\numberline {6.1}Introduction}{9}
-\contentsline {section}{Acronyms}{10}
-\contentsline {section}{References}{11}
+\contentsline {section}{\numberline {A}Title of appendix A}{10}
+\contentsline {section}{\numberline {B}Title of app 22}{11}
+\contentsline {section}{Acronyms}{12}
