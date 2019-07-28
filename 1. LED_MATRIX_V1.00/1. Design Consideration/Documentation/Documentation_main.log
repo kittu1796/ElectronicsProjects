@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  28 JUL 2019 00:04
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  28 JUL 2019 19:52
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -650,7 +650,12 @@ Package lettrine.sty Info: Targeted height = 23.14pt
 (lettrine.sty)             (no accent, loversize=0),
 (lettrine.sty)             Lettrine height = 23.03831pt (T);
 (lettrine.sty)             reported on input line 12.
- [1
+
+Overfull \hbox (6.9825pt too wide) in paragraph at lines 20--35
+[][] 
+ []
+
+[1
 
 
 
@@ -663,8 +668,7 @@ File: ./images/BD_LED_MATRIX_V1.png Graphic file (type bmp)
 ]
 \openout2 = `ListOfTools.aux'.
 
-
-(ListOfTools.tex
+ (ListOfTools.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 List Of Tools|
  []
@@ -686,20 +690,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
 (Documentation/Hardware/Introduction.tex)
 (Documentation/Hardware/ControlUnit.tex
 (Documentation/Hardware/ControlUnit/MCU.tex
-Package lettrine.sty Info: Targeted height = 23.14pt
-(lettrine.sty)             (no accent, loversize=0),
-(lettrine.sty)             Lettrine height = 23.03831pt (T);
-(lettrine.sty)             reported on input line 6.
- [4
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+\TU/lmr/m/n/10 hardware interface defines the required
+ []
+
+File: ./images/required_hw_interface.png Graphic file (type bmp)
+<./images/required_hw_interface.png>
+
+Overfull \hbox (5.92432pt too wide) in paragraph at lines 14--16
+[][]
+ []
 
 
-])
-(Documentation/Hardware/ControlUnit/OscillatorCircuit.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+\TU/lmr/m/n/10 The project requires fast execution of
+ []
+
+[4
+
+
+]
+Underfull \hbox (badness 6300) in paragraph at lines 33--35
+\TU/lmr/m/n/10 (like IDE and drivers) the []AVR series
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[]\TU/lmr/m/n/10 2Kbytes []Static Random Access Memory
+ []
+
+) (Documentation/Hardware/ControlUnit/OscillatorCircuit.tex)
 (Documentation/Hardware/ControlUnit/Reset.tex)
 (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex)) [5] [5
+(Documentation/Hardware/Input.tex) [5]
+Overfull \vbox (13.8999pt too high) has occurred while \output is active []
+
+
+[6]) [6
 
 
 ]
@@ -710,10 +744,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Software|
  []
 
-) [6
+) [7
 
 
-] [6
+] [7
 
 
 ]
@@ -724,10 +758,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 PCB Design|
  []
 
-) [7
+) [8
 
 
-] [7
+] [8
 
 
 ]
@@ -738,27 +772,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Mechanical CAD|
  []
 
-) [8
+) [9
 
 
-] [8
+] [9
 
 
 ]
 Using TeX to sort glossary entries---this may take a while
-No file Documentation_main.acr.
-[9
 
-] [9] (Documentation_main.bbl) [10] (Documentation_main.aux
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]\TU/lmr/m/n/10 Electrically Erasable Programmable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]\TU/lmr/m/n/10 Universal Synchronous Asynchronous
+ []
+
+No file Documentation_main.acr.
+[10
+
+] [10] (Documentation_main.bbl) [11] (Documentation_main.aux
 (ProjectDescription.aux) (ListOfTools.aux) (Hardware.aux) (Software.aux)
 (PcbDesign.aux) (MechanicalCAD.aux)) ) 
 Here is how much of TeX's memory you used:
- 8772 strings out of 427836
- 123504 string characters out of 3155125
- 272612 words of memory out of 3000000
- 12475 multiletter control sequences out of 15000+200000
+ 9186 strings out of 427836
+ 129615 string characters out of 3155125
+ 284266 words of memory out of 3000000
+ 12888 multiletter control sequences out of 15000+200000
  5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 49i,11n,45p,2074b,535s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,13n,45p,2074b,572s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Documentation_main.pdf (23 pages).
+Output written on Documentation_main.pdf (24 pages).

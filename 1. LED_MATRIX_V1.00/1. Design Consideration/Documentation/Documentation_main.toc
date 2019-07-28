@@ -1,37 +1,38 @@
 \contentsline {section}{\numberline {1}Project Description}{1}
 \contentsline {subsection}{\numberline {1.1}Introduction}{1}
-\contentsline {subsection}{\numberline {1.2}Hardware}{1}
-\contentsline {subsubsection}{\numberline {1.2.1}MCU}{1}
-\contentsline {subsubsection}{\numberline {1.2.2}LED Matrix}{1}
-\contentsline {subsubsection}{\numberline {1.2.3}Power supply}{2}
-\contentsline {subsubsection}{\numberline {1.2.4}Input}{2}
+\contentsline {subsection}{\numberline {1.2}Feature and Functionality}{1}
+\contentsline {subsection}{\numberline {1.3}Hardware}{1}
+\contentsline {subsubsection}{\numberline {1.3.1}MCU}{1}
+\contentsline {subsubsection}{\numberline {1.3.2}LED Matrix}{2}
+\contentsline {subsubsection}{\numberline {1.3.3}Power supply}{2}
+\contentsline {subsubsection}{\numberline {1.3.4}Input}{2}
 \contentsline {section}{\numberline {2}List Of Tools}{3}
 \contentsline {subsection}{\numberline {2.1}Introduction}{3}
 \contentsline {section}{\numberline {3}Hardware}{4}
 \contentsline {subsection}{\numberline {3.1}Introduction}{4}
 \contentsline {subsection}{\numberline {3.2}Control Unit}{4}
 \contentsline {subsubsection}{\numberline {3.2.1}MCU}{4}
-\contentsline {subsubsection}{\numberline {3.2.2}Oscillator Circuit}{5}
-\contentsline {subsubsection}{\numberline {3.2.3}Reset}{5}
-\contentsline {subsubsection}{\numberline {3.2.4}Port Assignment}{5}
-\contentsline {subsubsection}{\numberline {3.2.5}Voltage Level Indicator}{5}
-\contentsline {subsubsection}{\numberline {3.2.6}Display Intensity controller}{5}
-\contentsline {subsection}{\numberline {3.3}Power Supply}{5}
-\contentsline {subsubsection}{\numberline {3.3.1}Power Switch}{5}
-\contentsline {subsubsection}{\numberline {3.3.2}Capacitive Power Supply}{5}
-\contentsline {subsubsection}{\numberline {3.3.3}Filter}{5}
-\contentsline {subsubsection}{\numberline {3.3.4}voltage Regulation}{5}
-\contentsline {subsubsection}{\numberline {3.3.5}Current Consumption}{5}
-\contentsline {subsection}{\numberline {3.4}LED Matrix}{5}
-\contentsline {subsubsection}{\numberline {3.4.1}LED}{5}
-\contentsline {subsubsection}{\numberline {3.4.2}Transistors}{5}
-\contentsline {subsubsection}{\numberline {3.4.3}Shift Registers}{5}
-\contentsline {subsection}{\numberline {3.5}Input}{5}
-\contentsline {section}{\numberline {4}Software}{6}
-\contentsline {subsection}{\numberline {4.1}Introduction}{6}
-\contentsline {section}{\numberline {5}PCB Design}{7}
-\contentsline {subsection}{\numberline {5.1}Introduction}{7}
-\contentsline {section}{\numberline {6}Mechanical CAD}{8}
-\contentsline {subsection}{\numberline {6.1}Introduction}{8}
-\contentsline {section}{Acronyms}{9}
-\contentsline {section}{References}{10}
+\contentsline {subsubsection}{\numberline {3.2.2}Oscillator Circuit}{6}
+\contentsline {subsubsection}{\numberline {3.2.3}Reset}{6}
+\contentsline {subsubsection}{\numberline {3.2.4}Port Assignment}{6}
+\contentsline {subsubsection}{\numberline {3.2.5}Voltage Level Indicator}{6}
+\contentsline {subsubsection}{\numberline {3.2.6}Display Intensity controller}{6}
+\contentsline {subsection}{\numberline {3.3}Power Supply}{6}
+\contentsline {subsubsection}{\numberline {3.3.1}Power Switch}{6}
+\contentsline {subsubsection}{\numberline {3.3.2}Capacitive Power Supply}{6}
+\contentsline {subsubsection}{\numberline {3.3.3}Filter}{6}
+\contentsline {subsubsection}{\numberline {3.3.4}voltage Regulation}{6}
+\contentsline {subsubsection}{\numberline {3.3.5}Current Consumption}{6}
+\contentsline {subsection}{\numberline {3.4}LED Matrix}{6}
+\contentsline {subsubsection}{\numberline {3.4.1}LED}{6}
+\contentsline {subsubsection}{\numberline {3.4.2}Transistors}{6}
+\contentsline {subsubsection}{\numberline {3.4.3}Shift Registers}{6}
+\contentsline {subsection}{\numberline {3.5}Input}{6}
+\contentsline {section}{\numberline {4}Software}{7}
+\contentsline {subsection}{\numberline {4.1}Introduction}{7}
+\contentsline {section}{\numberline {5}PCB Design}{8}
+\contentsline {subsection}{\numberline {5.1}Introduction}{8}
+\contentsline {section}{\numberline {6}Mechanical CAD}{9}
+\contentsline {subsection}{\numberline {6.1}Introduction}{9}
+\contentsline {section}{Acronyms}{10}
+\contentsline {section}{References}{11}

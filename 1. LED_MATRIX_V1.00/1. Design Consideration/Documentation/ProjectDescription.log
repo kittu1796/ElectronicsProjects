@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  27 JUL 2019 23:59
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  28 JUL 2019 18:09
 entering extended mode
 **./ProjectDescription.tex
 (ProjectDescription.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 ! Undefined control sequence.
-l.5 \section
+l.3 \section
             {Project Description}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20,7 +20,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \section{P
+l.3 \section{P
               roject Description}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -44,7 +44,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
 []
  []
 
@@ -55,8 +55,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \begin{multicols}
-                      {2}
+l.7 \begin{multicols}
+                     {2}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -68,20 +68,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \begin{multicols}{2
-                        }
+l.7 \begin{multicols}{2
+                       }
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
 [] 
  []
 
 ! Undefined control sequence.
-l.13 ^^I^^I\subsection
-                      {Introduction}
+l.9 ^^I^^I\subsection
+                     {Introduction}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -95,8 +95,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ^^I^^I\subsection{I
-                        ntroduction}
+l.9 ^^I^^I\subsection{I
+                       ntroduction}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -113,12 +113,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
 [] 
  []
 
 ! Undefined control sequence.
-l.16 ^^I^^I^^I\lettrine
+l.12 ^^I^^I^^I\lettrine
                        {T}{he} Remote Display utilises a simple static scrol...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -133,7 +133,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ^^I^^I^^I\lettrine{T
+l.12 ^^I^^I^^I\lettrine{T
                          }{he} Remote Display utilises a simple static scrol...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -185,9 +185,18 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no D in font nullfont!
+! Undefined control sequence.
+l.12 ...ay utilises a simple static scrolling \gls
+                                                  {led} display and makes it...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -202,8 +211,9 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -242,7 +252,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.16 ...ible from a nearby location using the \gls
+l.12 ...ible from a nearby location using the \gls
                                                   {ble} feature of an Androi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -517,9 +527,18 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--13
 []
  []
+
+! Undefined control sequence.
+l.14 ^^I^^I\subsection
+                      {Feature and Functionality}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: Missing \begin{document}.
@@ -528,12 +547,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ^^I^^I^^IT
-               he Remote Display works around a 16x8 RED \gls{led} matrix wh...
-
+l.14 ^^I^^I\subsection{F
+                        eature and Functionality}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no F in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -550,85 +591,280 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
-Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no D in font nullfont!
-! Undefined control sequence.
-l.18 ...emote Display works around a 16x8 RED \gls
-                                                  {led} matrix which is cont...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no b in font nullfont!
 Missing character: There is no y in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-! Undefined control sequence.
-l.18 ...ed} matrix which is controlled by the \gls
-                                                  {mcu}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no m in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no u in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ^^I^^I\begin{table}
+                        [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ^^I^^I^^I\caption
+                      {Feature and Functionality}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
+! Undefined control sequence.
+<recently read> \gls 
+                     
+l.24 ^^I^^I^^I^^I\textbf{\gls{ble}}
+                                    & Provide remote Access \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+! Undefined control sequence.
+<recently read> \acrshort 
+                          
+l.26 ^^I^^I^^I^^I\textbf{\acrshort{usb}}
+                                         & Communicate with computer \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Undefined control sequence.
+<recently read> \gls 
+                     
+l.28 ^^I^^I^^I^^I\textbf{\gls{ble} \gls{led}}
+                                              & \gls{ble} status indicator \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \gls {ble} \gls 
+                           {led}
+l.28 ^^I^^I^^I^^I\textbf{\gls{ble} \gls{led}}
+                                              & \gls{ble} status indicator \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 ...I^^I^^I\textbf{\gls{ble} \gls{led}} & \gls
+                                                  {ble} status indicator \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ^^I^^I\end{table}
+                      ^^I
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--36
+[]
+ []
+
+
+Overfull \hbox (151.5pt too wide) in paragraph at lines 14--36
 []
  []
 
 ! Undefined control sequence.
-l.20 ^^I^^I\subsection
+l.38 ^^I^^I\subsection
                       {Hardware}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -643,7 +879,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 ^^I^^I\subsection{H
+l.38 ^^I^^I\subsection{H
                         ardware}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -657,7 +893,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.21 ^^I^^I^^I\subsubsection
+l.39 ^^I^^I^^I\subsubsection
                             {MCU}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -709,7 +945,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no P in font nullfont!
 ! Undefined control sequence.
-l.22 ... display is built around a ATmega328P \gls
+l.40 ... display is built around a ATmega328P \gls
                                                   {avr} microcontroller. Thi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -741,7 +977,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.22 ...a328P \gls{avr} microcontroller. This \gls
+l.40 ...a328P \gls{avr} microcontroller. This \gls
                                                   {mcu} is based on advanced...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -769,16 +1005,25 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no C in font nullfont!
+! Undefined control sequence.
+l.40 .... This \gls{mcu} is based on advanced \gls
+                                                  {risc} \cite{AtMega328P} a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
 Missing character: There is no [ in font nullfont!
 \citation{AtMega328P}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .^^J
-l.22 ...s based on advanced RISC \cite{AtMega328P}
+l.40 ...d on advanced \gls{risc} \cite{AtMega328P}
                                                    architecture, 8 bit \gls{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -787,7 +1032,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `AtMega328P' on page  undefined on input line 22.
+LaTeX Warning: Citation `AtMega328P' on page  undefined on input line 40.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -808,7 +1053,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.22 ...\cite{AtMega328P} architecture, 8 bit \gls
+l.40 ...\cite{AtMega328P} architecture, 8 bit \gls
                                                   {mcu} and 23 programmable ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -837,7 +1082,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.22 ..., 8 bit \gls{mcu} and 23 programmable \gls
+l.40 ..., 8 bit \gls{mcu} and 23 programmable \gls
                                                   {io} lines. For controllin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -936,7 +1181,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no w in font nullfont!
 ! Undefined control sequence.
-l.22 ...1 for row, due to shift registers few \gls
+l.40 ...1 for row, due to shift registers few \gls
                                                   {mcu} \gls{io} lines are u...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -948,7 +1193,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no u in font nullfont!
 ! Undefined control sequence.
-l.22 ... due to shift registers few \gls{mcu} \gls
+l.40 ... due to shift registers few \gls{mcu} \gls
                                                   {io} lines are used.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -972,7 +1217,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.23 ^^I^^I^^I\subsubsection
+l.41 ^^I^^I^^I\subsubsection
                             {LED Matrix}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1001,14 +1246,14 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no D in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
-l.24 ^^I^^I^^I^^I Single colour  RED 5mm \gls
+l.42 ^^I^^I^^I^^I Single colour  red 5mm \gls
                                              {led} used to build the matrix,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1051,7 +1296,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 ! Undefined control sequence.
-l.24 ...sed to build the matrix, total of 128 \gls
+l.42 ...sed to build the matrix, total of 128 \gls
                                                   {led} required for 16x8 ma...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1159,7 +1404,7 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.24 ...vide required current for each row of \gls
+l.42 ...vide required current for each row of \gls
                                                   {led} matrix.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1178,37 +1423,37 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 20--25
+Overfull \hbox (20.0pt too wide) in paragraph at lines 38--43
 []
  []
 
 
-Overfull \hbox (5.43pt too wide) in paragraph at lines 20--25
+Overfull \hbox (5.43pt too wide) in paragraph at lines 38--43
 []
  []
 
 
-Overfull \hbox (15.38pt too wide) in paragraph at lines 20--25
+Overfull \hbox (15.38pt too wide) in paragraph at lines 38--43
 \TU/lmr/m/sc/10 re-
  []
 
 
-Overfull \hbox (25.32pt too wide) in paragraph at lines 20--25
+Overfull \hbox (25.32pt too wide) in paragraph at lines 38--43
 \TU/lmr/m/sc/10 mote
  []
 
 
-Overfull \hbox (17.62pt too wide) in paragraph at lines 20--25
+Overfull \hbox (17.62pt too wide) in paragraph at lines 38--43
 \TU/lmr/m/sc/10 dis-
  []
 
 
-Overfull \hbox (22.3pt too wide) in paragraph at lines 20--25
+Overfull \hbox (22.3pt too wide) in paragraph at lines 38--43
 \TU/lmr/m/sc/10 play
  []
 
 ! Undefined control sequence.
-l.26 ^^I^^I^^I\subsubsection
+l.44 ^^I^^I^^I\subsubsection
                             {Power supply}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1223,7 +1468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ^^I^^I^^I\subsubsection{P
+l.44 ^^I^^I^^I\subsubsection{P
                               ower supply}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1408,12 +1653,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--28
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--46
 []
  []
 
 ! Undefined control sequence.
-l.31 ^^I^^I^^I\subsubsection
+l.47 ^^I^^I^^I\subsubsection
                             {Input}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1428,7 +1673,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ^^I^^I^^I\subsubsection{I
+l.47 ^^I^^I^^I\subsubsection{I
                               nput}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1527,8 +1772,8 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.32 ...ough an input source like computer or \gls
-                                                  {ble}. Such a feature help...
+l.48 ...ough an input source like computer or \gls
+                                                  {ble}, through \gls{usart}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1538,6 +1783,28 @@ and I'll forget about whatever was undefined.
 Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+! Undefined control sequence.
+l.48 ...e like computer or \gls{ble}, through \gls
+                                                  {usart}. Such a feature he...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -1617,7 +1884,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 31--33
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--49
 []
  []
 
@@ -1628,7 +1895,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \end{multicols}
+l.50 \end{multicols}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1641,14 +1908,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \begin{figure*}
+l.52 \begin{figure*}
                     ^^I^^I
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.37 ^^I\includegraphics
+l.53 ^^I\includegraphics
                         [scale = 0.3]{BD_LED_MATRIX_V1.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1663,7 +1930,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 ^^I\includegraphics[
+l.53 ^^I\includegraphics[
                          scale = 0.3]{BD_LED_MATRIX_V1.png}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1684,17 +1951,13 @@ Missing character: There is no D in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.37 ^^I\includegraphics[scale = 0.3]{BD_
+l.53 ^^I\includegraphics[scale = 0.3]{BD_
                                          LED_MATRIX_V1.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
 ! Extra }, or forgotten $.
-l.37 ...raphics[scale = 0.3]{BD_LED_MATRIX_V1.png}
+l.53 ...raphics[scale = 0.3]{BD_LED_MATRIX_V1.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1709,7 +1972,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ^^I\caption
+l.54 ^^I\caption
                 {Block Diagram V1.0}^^I
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1721,7 +1984,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \end{figure*}
+l.55 \end{figure*}
                   ^^I
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1730,7 +1993,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.39 \end{figure*}
+l.55 \end{figure*}
                   ^^I
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1741,7 +2004,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.39 \end{figure*}
+l.55 \end{figure*}
                   ^^I
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1750,12 +2013,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 37--40
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--56
 []
  []
 
 
-Overfull \hbox (185.92065pt too wide) in paragraph at lines 37--40
+Overfull \hbox (185.92065pt too wide) in paragraph at lines 53--56
 []\OML/cmm/m/it/10 ED[]ATRIX[]\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :png[]$ 
  []
 
@@ -1766,7 +2029,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \begin{multicols}
+l.57 \begin{multicols}
                       {2}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1779,14 +2042,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \begin{multicols}{2
+l.57 \begin{multicols}{2
                         }
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 2 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 41--42
+Overfull \hbox (20.0pt too wide) in paragraph at lines 57--58
 [] 
  []
 
@@ -1797,7 +2060,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \end{multicols}
+l.59 \end{multicols}
                     ^^I
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1811,11 +2074,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 22 strings out of 427836
- 451 string characters out of 3155125
- 62054 words of memory out of 3000000
- 4073 multiletter control sequences out of 15000+200000
+ 26 strings out of 427836
+ 475 string characters out of 3155125
+ 63054 words of memory out of 3000000
+ 4077 multiletter control sequences out of 15000+200000
  3664 words of font info for 17 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 19i,2n,23p,494b,113s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 19i,7n,23p,501b,154s stack positions out of 5000i,500n,10000p,200000b,50000s
 No pages of output.

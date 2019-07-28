@@ -9,9 +9,31 @@
 		\subsection{Introduction}
 
 %This paragraph contains the overview of the project.
-			\lettrine{T}{he} Remote Display utilises a simple static scrolling gls{led} display and make is accessible from a nearby location using the \gls{ble} feature of an Android phone. Using such a feature the user can modify the display at will and with ease, this reduces the time to manually reprogram the controlling unit and does not require any computer. Having remote access makes the display very handy for a users who keeps the display at a non accessible location. 
+			\lettrine{T}{he} Remote Display utilises a simple static scrolling \gls{led} display and makes it accessible from a nearby location using the \gls{ble} feature of an Android phone. Using such a feature the user can modify the display at will and with ease, this reduces the time to manually reprogram the controlling unit and does not require any computer. Having remote access makes the display very handy for a users who keeps the display at a non accessible location. 
 			
-			The Remote Display works around a 16x8 red \gls{led} matrix which is controlled by the \gls{mcu}.
+		\subsection{Feature and Functionality}
+%This section contains how the project will function and what are its features
+		The Remote Display has following  features and functionality.
+		\begin{table}[H]
+			%\centering
+			\caption{Feature and Functionality}
+			\begin{tabular}{|c|c|}
+				\hline 
+				\textbf{Feature} & \textbf{Functionality} \\ 
+				\hline 
+				\textbf{\gls{ble}} & Provide remote Access \\ 
+				\hline 
+				\textbf{\acrshort{usb}} & Communicate with computer \\ 
+				\hline 
+				\textbf{\gls{ble} \gls{led}} & \gls{ble} status indicator \\ 
+				\hline 
+				\textbf{Speed Controller} & Control scrolling speed \\ 
+				\hline 
+				\textbf{Parameter Mode} & To edit control parameters \\ 
+				\hline 
+			\end{tabular} 
+		\end{table}	
+		
 			
 		\subsection{Hardware}
 			\subsubsection{MCU}
@@ -20,12 +42,10 @@
 				 Single colour  red 5mm \gls{led} used to build the matrix, total of 128 \gls{led} required for 16x8 matrix. An array of transistors configured as switch to provide required current for each row of \gls{led} matrix.  
 
 			\subsubsection{Power supply}
-				The project utilises a transformerless capacitive power supply design. Such a design is helpful in reducing the overall cost of project and also utilises fewer components thus saving space and cost.
-				
-				
+				The project utilises a transformerless capacitive power supply design. Such a design is helpful in reducing the overall cost of project and also utilises fewer components thus saving space and cost.			
 			
 			\subsubsection{Input}
-				 The project is aimed to dynamically modify the display commands through an input source like computer or \gls{ble}. Such a feature helps in modifying the display at will rather than modifying the source code.
+				 The project is aimed to dynamically modify the display commands through an input source like computer or \gls{ble}, through \gls{usart}. Such a feature helps in modifying the display at will rather than modifying the source code.
 
 \end{multicols}
 
