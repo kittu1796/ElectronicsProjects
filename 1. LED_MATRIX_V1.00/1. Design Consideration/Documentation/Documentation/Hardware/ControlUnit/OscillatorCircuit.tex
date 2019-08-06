@@ -1,8 +1,36 @@
 % Start - Hardware/Control Unit/Oscillator Circuit
 %write Between the comments
 
+
 \subsubsection{Oscillator Circuit}
 %first create all the reference in bibfile.
+
+	\paragraph{The} oscillator circuit is required for generating clock for \gls{mcu}.Accuracy of timing application is dependent on the accuracy of the oscillator provided in the \gls{mcu}. The oscillators supported by ATmega328P are listed below.
+		\begin{itemize}
+			\item Low power crystal oscillator
+			\item Full swing crystal oscillator
+			\item Low frequency crystal oscillator
+			\item Internal 128kHz RC oscillator
+			\item Calibrated internal RC oscillator
+			\item External clock
+		\end{itemize}		
+		
+	\paragraph{Selecting} crystal requires following considerations.
+		\begin{enumerate}
+				\item \gls{tht} or \gls{smt}.
+				\item Load capacitance.
+				\item Frequency of operation
+				\item Q - factor
+				\item \gls{esr}
+				\item Frequency Pulling
+				\item Drive level
+				\item Minimum negative Resistance
+				\item Frequency stability
+				\item Frequency Tolerance
+		\end{enumerate}
+			
+	\paragraph{\gls{pcb} } design.
+	
 
 \cite{AVR042}
 
