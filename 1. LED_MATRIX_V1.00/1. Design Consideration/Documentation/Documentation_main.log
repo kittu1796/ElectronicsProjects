@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  6 AUG 2019 21:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  10 AUG 2019 18:54
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -551,16 +551,8 @@ LaTeX Warning: Unused global option(s):
     [15pt].
 
 (Documentation_main.aux (ProjectDescription.aux) (ListOfTools.aux)
-(Hardware.aux
-
-Package glossaries Warning: Glossary entry `THT' has not been defined on input 
-line 58.
-
-
-Package glossaries Warning: Glossary entry `SMT' has not been defined on input 
-line 59.
-
-) (Software.aux) (PcbDesign.aux) (MechanicalCAD.aux) (appendix.aux))
+(Hardware.aux) (Software.aux) (PcbDesign.aux) (MechanicalCAD.aux) (appendix.aux
+))
 \openout1 = `Documentation_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -741,13 +733,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
 ) (Documentation/Hardware/ControlUnit/OscillatorCircuit.tex [5]
 
-LaTeX Warning: Citation `AVR042' on page 6 undefined on input line 35.
+LaTeX Warning: Citation `AVR042' on page 6 undefined on input line 57.
 
 ) (Documentation/Hardware/ControlUnit/Reset.tex)
 (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex) [6]) [6
+(Documentation/Hardware/Input.tex) [6]) [7] [7
 
 
 ]
@@ -758,10 +750,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Software|
  []
 
-) [7
+) [8
 
 
-] [7
+] [8
 
 
 ]
@@ -772,10 +764,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 PCB Design|
  []
 
-) [8
+) [9
 
 
-] [8
+] [9
 
 
 ]
@@ -786,20 +778,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Mechanical CAD|
  []
 
-) [9
+) [10
 
 
-] [9
+] [10
 
 
 ]
 \openout2 = `appendix.aux'.
 
- (appendix.tex (Documentation/Appendix/appendix_crystal.tex [10
+ (appendix.tex (Documentation/Appendix/appendix_crystal.tex [11
 
 
 ]
-[10]) [11] [11])
+[11]) [12] [12])
 Using TeX to sort glossary entries---this may take a while
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--58
@@ -812,9 +804,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
  []
 
 No file Documentation_main.acr.
-[12
+[13
 
-] [12] (Documentation_main.bbl) (Documentation_main.aux
+] [13] (Documentation_main.bbl) (Documentation_main.aux
 (ProjectDescription.aux) (ListOfTools.aux) (Hardware.aux) (Software.aux)
 (PcbDesign.aux) (MechanicalCAD.aux) (appendix.aux))
 
@@ -822,12 +814,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9331 strings out of 427836
- 131748 string characters out of 3155125
- 289240 words of memory out of 3000000
- 13023 multiletter control sequences out of 15000+200000
+ 9336 strings out of 427836
+ 131841 string characters out of 3155125
+ 287475 words of memory out of 3000000
+ 13028 multiletter control sequences out of 15000+200000
  5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 49i,13n,45p,2074b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,13n,45p,2074b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Documentation_main.pdf (27 pages).
+Output written on Documentation_main.pdf (28 pages).

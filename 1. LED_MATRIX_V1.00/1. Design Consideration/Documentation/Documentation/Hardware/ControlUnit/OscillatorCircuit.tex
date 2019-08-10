@@ -8,12 +8,34 @@
 	\paragraph{The} oscillator circuit is required for generating clock for \gls{mcu}.Accuracy of timing application is dependent on the accuracy of the oscillator provided in the \gls{mcu}. The oscillators supported by ATmega328P are listed below.
 		\begin{itemize}
 			\item Low power crystal oscillator
-			\item Full swing crystal oscillator
+			\item \textbf{Full swing crystal oscillator}
 			\item Low frequency crystal oscillator
 			\item Internal 128kHz RC oscillator
 			\item Calibrated internal RC oscillator
 			\item External clock
 		\end{itemize}		
+		
+	\subparagraph{For }
+	this application the \gls{mcu} will be in Full swing crystal oscillator mode.
+	
+	\subparagraph{\textbf{Advantages:}}
+		
+		\begin{itemize}
+			\item 16 MHz.
+			\item rail to rail swing.
+			\item Drive other clock sources
+			\item Less effect of noisy environment 
+		\end{itemize}		
+	 
+	 \subparagraph{Disadvantages}
+	 
+	 	\begin{itemize}
+	 		\item Higher current consumption than Low power crystal oscillator.
+	 		\item Operating Voltage of \gls{mcu} becomes 2.7 V to 5.00 V. 
+		\end{itemize}	
+	
+	\subparagraph{Overcoming}
+	the disadvantage : Using 230V AC source, so power consumption wont be an issue, \gls{mcu} will be working on 5 V DC which is within the operating voltage defined. 	   	  
 		
 	\paragraph{Selecting} crystal requires following considerations.
 		\begin{enumerate}
