@@ -10,7 +10,7 @@
 			\item Low power crystal oscillator
 			\item \textbf{Full swing crystal oscillator}
 			\item Low frequency crystal oscillator
-			\item Internal 128kHz RC oscillator
+			\item Internal 128 \gls{khz} RC oscillator
 			\item Calibrated internal RC oscillator
 			\item External clock
 		\end{itemize}		
@@ -21,35 +21,54 @@
 	\subparagraph{\textbf{Advantages:}}
 		
 		\begin{itemize}
-			\item 16 MHz.
+			\item 16 \gls{mhz}.
 			\item rail to rail swing.
 			\item Drive other clock sources
 			\item Less effect of noisy environment 
 		\end{itemize}		
 	 
-	 \subparagraph{Disadvantages}
+	 \subparagraph{Disadvantages:}
 	 
 	 	\begin{itemize}
-	 		\item Higher current consumption than Low power crystal oscillator.
-	 		\item Operating Voltage of \gls{mcu} becomes 2.7 V to 5.00 V. 
-		\end{itemize}	
-	
-	\subparagraph{Overcoming}
-	the disadvantage : Using 230V AC source, so power consumption wont be an issue, \gls{mcu} will be working on 5 V DC which is within the operating voltage defined. 	   	  
+	 		\item Higher current consumption than Low power crystal oscillator.(Power consumed by a crystal is not very significant, since using a 230 V AC source.)
+	 		\item Operating Voltage of \gls{mcu} becomes 2.7 V to 5.00 V.(\gls{mcu} will be working on 5 V DC which is within the operating voltage defined.) 
+		\end{itemize}	  	  
 		
-	\paragraph{Selecting} crystal requires following considerations.
-		\begin{enumerate}
-				\item \gls{tht} or \gls{smt}.
-				\item Load capacitance.
-				\item Frequency of operation
-				\item Q - factor
-				\item \gls{esr}
-				\item Frequency Pulling
-				\item Drive level
-				\item Minimum negative Resistance
-				\item Frequency stability
-				\item Frequency Tolerance
-		\end{enumerate}
+	\textbf{Selecting Crystal}
+	
+	\paragraph{1. Crystal Requirement}
+	
+		\begin{itemize}
+			\item Frequency: 16 \gls{mhz}
+			\item $C_{L}$: 18 pF
+			\item Mode of operation : Fundamental 
+			\item Resonant: Parallel
+			\item Tolerance: 20 - 50 \acrshort{ppm}
+			\item Temperature Stability: 20 - 50 \acrshort{ppm}
+			\item \gls{esr}: 60 $\Omega$
+		\end{itemize}
+	
+	\paragraph{2. Crystal Selected}
+	
+	\begin{table*}[t]
+		\caption{Crystal comparison}
+		\label{tab:crystal_comparison}
+\begin{tabular}{|r|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Device Manufacturer/\\ Parameter\end{tabular}}} & \textbf{MULTICOMP} & \textbf{TXC} & \textbf{ABRACON} & \textbf{TXC} & \textbf{MULTICOMP}                                                                  \\ \hline
+\textbf{Part No.}                                                                                       & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}MCSJK-7I-16.00-\\ 18-30-60-B-30\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}7A-16.000\\ MAAJ-T\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}ABLS-16.000\\ MHZ-B4-T\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}9C-16.000\\ MAAJ-T\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}MCRSD16000\\ F183000RR\end{tabular}} \\ \hline
+\textbf{RoHs}                                                                                           & Yes & Yes & Yes & Yes & Yes                                                                                 \\ \hline
+\textbf{Price(INR)}                                                                                     & 28.37 & 22.49  & 21.44 & 32.80  & 15.69    \\ \hline
+\textbf{Case (mm X mm)}                                                                                 & 5 x 3.2  & 5 x 3.2 & 11.5 x 4.7 & 11.4 x 4.35 & 11.4 x 4.7                                                                          \\ \hline
+\textbf{THT/SMD}                                                                                        & SMD & SMD & THT & THT & THT \\ \hline
+\textbf{\begin{tabular}[c]{@{}r@{}}Fundamental \\ Frequency ( MHz)\end{tabular}}                        & 16 & 16 & 16 & 16  & 16  \\ \hline
+\textbf{\begin{tabular}[c]{@{}r@{}}Frequency \\ Stability (ppm)\end{tabular}}                           & 30                                                                                           & 30 & 50 & 30 & 30  \\ \hline
+\textbf{\begin{tabular}[c]{@{}r@{}}Frequency \\ Tolerance(ppm)\end{tabular}}                            & 30 & 30 & 30 & 30 & 30 \\ \hline
+\textbf{C\_\{L\} pF}                                                                                    & 18 & 18 & 18 & 18 & 18  \\ \hline
+\textbf{\begin{tabular}[c]{@{}r@{}}Operating\\ Temperature max\end{tabular}}                            & 70 & 85 & 70 & 85 & 70  \\ \hline
+\textbf{\begin{tabular}[c]{@{}r@{}}Operating \\ Temperature min\end{tabular}}                           & -20 & -40 & -20 & -40 & -20 \\ \hline
+\end{tabular}
+	\end{table*}		
 			
 	\paragraph{\gls{pcb} } design.
 	

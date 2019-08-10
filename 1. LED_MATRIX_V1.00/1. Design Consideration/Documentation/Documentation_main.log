@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  10 AUG 2019 18:54
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  10 AUG 2019 20:42
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -732,14 +732,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
  []
 
 ) (Documentation/Hardware/ControlUnit/OscillatorCircuit.tex [5]
+Overfull \hbox (15.34506pt too wide) in paragraph at lines 56--71
+[][] 
+ []
 
-LaTeX Warning: Citation `AVR042' on page 6 undefined on input line 57.
+
+LaTeX Warning: Citation `AVR042' on page 6 undefined on input line 76.
 
 ) (Documentation/Hardware/ControlUnit/Reset.tex)
 (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex) [6]) [7] [7
+(Documentation/Hardware/Input.tex) [6]
+Overfull \vbox (117.54488pt too high) has occurred while \output is active []
+
+
+[7]) [7
 
 
 ]
@@ -814,12 +822,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9336 strings out of 427836
- 131841 string characters out of 3155125
- 287475 words of memory out of 3000000
- 13028 multiletter control sequences out of 15000+200000
+ 9430 strings out of 427836
+ 133194 string characters out of 3155125
+ 292373 words of memory out of 3000000
+ 13122 multiletter control sequences out of 15000+200000
  5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 49i,13n,45p,2074b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,13n,45p,2074b,650s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Documentation_main.pdf (28 pages).
