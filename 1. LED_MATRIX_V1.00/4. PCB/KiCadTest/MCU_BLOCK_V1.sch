@@ -79,6 +79,7 @@ F 0 "C1" H 900 1700 50  0000 L CNN
 F 1 "18 pF, 0603F" H 750 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 950 1500 50  0001 C CNN
 F 3 "~" H 950 1500 50  0001 C CNN
+F 4 "VJ0603A180FXACW1BC" H 950 1500 50  0001 C CNN "Part Number"
 	1    950  1500
 	1    0    0    -1  
 $EndComp
@@ -87,9 +88,10 @@ L Device:C_Small C2
 U 1 1 5D50A0E9
 P 1800 1500
 F 0 "C2" H 1750 1700 50  0000 L CNN
-F 1 "18 pF, 0603F" H 1700 1400 50  0000 L CNN
+F 1 "18 pF, 0603F" H 1550 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 1500 50  0001 C CNN
 F 3 "~" H 1800 1500 50  0001 C CNN
+F 4 "VJ0603A180FXACW1BC" H 1800 1500 50  0001 C CNN "Part Number"
 	1    1800 1500
 	1    0    0    -1  
 $EndComp
@@ -178,12 +180,67 @@ Text Notes 2450 650  0    50   ~ 0
 Power Supply 
 Text GLabel 5550 1850 1    50   Input ~ 0
 MCU_3V3
-Text GLabel 2800 1150 2    50   Input ~ 0
-MCU_GND
 Text GLabel 5550 5200 3    50   Input ~ 0
 MCU_GND
 Wire Wire Line
 	5550 1850 5550 2050
 Wire Wire Line
 	5550 5200 5550 5050
+$Comp
+L Device:R R2
+U 1 1 5D504F89
+P 1200 2800
+F 0 "R2" H 1270 2846 50  0000 L CNN
+F 1 "10 K, 0603J" H 1270 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 1130 2800 50  0001 C CNN
+F 3 "~" H 1200 2800 50  0001 C CNN
+F 4 "" H 1200 2800 50  0001 C CNN "Part Number"
+	1    1200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D5066E7
+P 1200 3200
+F 0 "C3" H 1315 3246 50  0000 L CNN
+F 1 "0.1 uF, 0603J" H 1200 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 1238 3050 50  0001 C CNN
+F 3 "~" H 1200 3200 50  0001 C CNN
+F 4 "" H 1200 3200 50  0001 C CNN "Part Number"
+	1    1200 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 2550 0    50   Input ~ 0
+MCU_3V3
+Text GLabel 2800 1150 2    50   Input ~ 0
+MCU_GND
+Text GLabel 1200 3450 0    50   Input ~ 0
+MCU_GND
+Wire Wire Line
+	1200 2550 1200 2650
+Wire Wire Line
+	1200 2950 1200 3000
+Wire Wire Line
+	1200 3350 1200 3450
+Text GLabel 1350 3000 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	1350 3000 1200 3000
+Connection ~ 1200 3000
+Wire Wire Line
+	1200 3000 1200 3050
+Text GLabel 6350 3850 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	6150 3850 6350 3850
+Wire Notes Line
+	600  3600 1750 3600
+Wire Notes Line
+	1750 3600 1750 2300
+Wire Notes Line
+	1750 2300 600  2300
+Wire Notes Line
+	600  2300 600  3600
+Text Notes 650  2400 0    50   ~ 0
+Reset Block
 $EndSCHEMATC

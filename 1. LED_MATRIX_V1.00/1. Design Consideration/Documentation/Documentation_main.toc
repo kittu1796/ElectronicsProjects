@@ -20,7 +20,10 @@
 \contentsline {paragraph}{Crystal Requirement}{6}
 \contentsline {paragraph}{Selected Crystal}{6}
 \contentsline {paragraph}{\gls {pcb} }{7}
-\contentsline {subsubsection}{\numberline {3.2.3}Reset}{8}
+\contentsline {subsubsection}{\numberline {3.2.3}Reset}{7}
+\contentsline {paragraph}{Reset}{7}
+\contentsline {paragraph}{R2}{8}
+\contentsline {paragraph}{C3}{8}
 \contentsline {subsubsection}{\numberline {3.2.4}Port Assignment}{8}
 \contentsline {subsubsection}{\numberline {3.2.5}Voltage Level Indicator}{8}
 \contentsline {subsubsection}{\numberline {3.2.6}Display Intensity controller}{8}
@@ -39,6 +42,7 @@
 \contentsline {subsection}{\numberline {4.1}Introduction}{9}
 \contentsline {section}{\numberline {5}PCB Design}{10}
 \contentsline {subsection}{\numberline {5.1}Introduction}{10}
+\contentsline {subsection}{\numberline {5.2}Crystal}{10}
 \contentsline {section}{\numberline {6}Mechanical CAD}{11}
 \contentsline {subsection}{\numberline {6.1}Introduction}{11}
 \contentsline {section}{\numberline {A}Crystal}{12}
