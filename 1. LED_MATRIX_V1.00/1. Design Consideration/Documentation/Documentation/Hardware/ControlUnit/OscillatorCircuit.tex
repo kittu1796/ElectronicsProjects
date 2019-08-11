@@ -5,7 +5,7 @@
 \subsubsection{Oscillator Circuit}
 %first create all the reference in bibfile.
 
-	\paragraph{The} oscillator circuit is required for generating clock for \gls{mcu}.Accuracy of timing application is dependent on the accuracy of the oscillator provided in the \gls{mcu}. The oscillators supported by ATmega328P are listed below.
+	\paragraph{The} oscillator circuit is required for generating clock for \gls{mcu}.Accuracy of timing application is dependent on the accuracy of the oscillator provided in the \gls{mcu}. The oscillators supported by ATmega328P are listed below \cite{AtMega328P}.
 		\begin{itemize}
 			\item Low power crystal oscillator
 			\item \textbf{Full swing crystal oscillator}
@@ -36,40 +36,76 @@
 		
 	\textbf{Selecting Crystal}
 	
-	\paragraph{1. Crystal Requirement}
+	\paragraph{Crystal Requirement}
 	
 		\begin{itemize}
 			\item Frequency: 16 \gls{mhz}
-			\item $C_{L}$: 18 pF
+			\item $C_{L}$: 6 - 11 pF \cite{AtMega328P}
 			\item Mode of operation : Fundamental 
 			\item Resonant: Parallel
-			\item Tolerance: 20 - 50 \acrshort{ppm}
-			\item Temperature Stability: 20 - 50 \acrshort{ppm}
-			\item \gls{esr}: 60 $\Omega$
+			\item Tolerance: 0 - 50 \acrshort{ppm}
+			\item Temperature Stability: 0 - 50 \acrshort{ppm}
+			\item \gls{esr}: 60 to 100 $\Omega$
+			\item Package type : \gls{smt} , since such crystals provide with less stray capacitance.
 		\end{itemize}
 	
-	\paragraph{2. Crystal Selected}
+	\paragraph{Selected Crystal} 
+	is TSX-3225 16.0000MF09Z-AC0 a \gls{smt} 4 pin device package. Refer \ref{tab:selected_crystal} for details. 
+
+	\subparagraph*{Oscillator Circuit Design}
 	
-	\begin{table*}[t]
-		\caption{Crystal comparison}
-		\label{tab:crystal_comparison}
-\begin{tabular}{|r|c|c|c|c|c|}
-\hline
-\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Device Manufacturer/\\ Parameter\end{tabular}}} & \textbf{MULTICOMP} & \textbf{TXC} & \textbf{ABRACON} & \textbf{TXC} & \textbf{MULTICOMP}                                                                  \\ \hline
-\textbf{Part No.}                                                                                       & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}MCSJK-7I-16.00-\\ 18-30-60-B-30\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}7A-16.000\\ MAAJ-T\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}ABLS-16.000\\ MHZ-B4-T\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}9C-16.000\\ MAAJ-T\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}MCRSD16000\\ F183000RR\end{tabular}} \\ \hline
-\textbf{RoHs}                                                                                           & Yes & Yes & Yes & Yes & Yes                                                                                 \\ \hline
-\textbf{Price(INR)}                                                                                     & 28.37 & 22.49  & 21.44 & 32.80  & 15.69    \\ \hline
-\textbf{Case (mm X mm)}                                                                                 & 5 x 3.2  & 5 x 3.2 & 11.5 x 4.7 & 11.4 x 4.35 & 11.4 x 4.7                                                                          \\ \hline
-\textbf{THT/SMD}                                                                                        & SMD & SMD & THT & THT & THT \\ \hline
-\textbf{\begin{tabular}[c]{@{}r@{}}Fundamental \\ Frequency ( MHz)\end{tabular}}                        & 16 & 16 & 16 & 16  & 16  \\ \hline
-\textbf{\begin{tabular}[c]{@{}r@{}}Frequency \\ Stability (ppm)\end{tabular}}                           & 30                                                                                           & 30 & 50 & 30 & 30  \\ \hline
-\textbf{\begin{tabular}[c]{@{}r@{}}Frequency \\ Tolerance(ppm)\end{tabular}}                            & 30 & 30 & 30 & 30 & 30 \\ \hline
-\textbf{C\_\{L\} pF}                                                                                    & 18 & 18 & 18 & 18 & 18  \\ \hline
-\textbf{\begin{tabular}[c]{@{}r@{}}Operating\\ Temperature max\end{tabular}}                            & 70 & 85 & 70 & 85 & 70  \\ \hline
-\textbf{\begin{tabular}[c]{@{}r@{}}Operating \\ Temperature min\end{tabular}}                           & -20 & -40 & -20 & -40 & -20 \\ \hline
-\end{tabular}
-	\end{table*}		
+		\begin{enumerate}
+			\item \textbf{Load Cpacitors}:
 			
+				\begin{itemize}
+					\item $C_{1}$ and $C_{2}$ together act as load capacitance.			
+	
+	\begin{figure}[H]
+		\caption{Oscillator Circuit}
+		\label{fig:crystal_circuit}
+		\includegraphics[scale=1]{crystal_ckt.png}
+	\end{figure}
+
+	\begin{table}[H]
+		\caption{Crystal Properties(cite datasheet)}
+		\label{tab:selected_crystal}
+		\begin{tabular}{|r|c|}
+				\hline
+				\textbf{Device Manufacturer}                                                                            & \textbf{EPSON}                                                                            \\ \hline
+				\textbf{Part No.}                                                                                       & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}TSX-3225 16.0000\\ MF09Z-AC0\end{tabular}} \\ \hline
+				\textbf{Case (mm X mm)}                                                                                 & 3.2 x 2.5                                                                                 \\ \hline
+				\textbf{\acrshort{tht} / \gls{smt}}                                        & SMD                                                                                       \\ \hline
+				\textbf{\begin{tabular}[c]{@{}r@{}}Fundamental \\ Frequency ( \gls{mhz})\end{tabular}} & 16                                                                                        \\ \hline
+				\textbf{\begin{tabular}[c]{@{}r@{}}Frequency \\ Stability (\acrshort{ppm})\end{tabular}}    & 9                                                                                         \\ \hline
+				\textbf{\begin{tabular}[c]{@{}r@{}}Frequency \\ Tolerance(\acrshort{ppm})\end{tabular}}     & 10                                                                                        \\ \hline
+				\textbf{$C_{L}$ pF}                                                                                     & 9                                                                                         \\ \hline
+				\textbf{\begin{tabular}[c]{@{}r@{}}Operating\\ Temp max(\textdegree C )\end{tabular}}        & 75                                                                                        \\ \hline
+				\textbf{\begin{tabular}[c]{@{}r@{}}Operating \\ Temp min(\textdegree C)\end{tabular}}        & -20                                                                                       \\ \hline
+				\textbf{Aging (\acrshort{ppm})}                                                             & 1                                                                                         \\ \hline
+				\textbf{ESR ($\Omega$)}                                                                                 & 60                                                                                        \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	\item To have total 180\textdegree 	 shift due to active components (i.e capacitors), each capacitor provides with 90\textdegree  shift in phase. The value of the load capacitor is provided (cite datatsheet). 
+	\item $C_{L}$ (Total Load capacitance) = 9 pF (cite DS)
+	\item $C_{s}$ : Stray capacitance.
+	\item $C_{1}$, $C_{2}$ are load capacitors
+	\item Considering $C_{1} = C_{2}$. 
+	\item value of $C_{1}$ and $C_{2}$ can be calculated using the following equation.
+					\begin{align}				
+						C_{L} &= {\frac{C_{1}C_{2} }{C_{1} + C_{2}}} + C_{s}\\
+						C_{1} &= 2(C_{L} - C_{s})			
+					\end{align}
+	\item Considering $C_{s}$ = 0 pF.
+					\begin{align}
+						C_{1} &= 2(9 - 0)\\
+						C_{1} &= 18 pF
+					\end{align}
+	\item Since crystal has drive level in range of 200 $\mu$ W, 0603 package ,i.e 0.1 W, is selected with value of 18 pF.
+	\item The resistor $R_{1}$ is used to make the behaviour linear, this enhances the output of the crystal circuit. $R_{1}$ = 1 M $\Omega$, 0603.
+				\end{itemize}
+		
+		\end{enumerate}		
 	\paragraph{\gls{pcb} } design.
 	
 

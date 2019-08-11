@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  10 AUG 2019 20:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  11 AUG 2019 12:41
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -731,23 +731,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 []\TU/lmr/m/n/10 2Kbytes []Static Random Access Memory
  []
 
-) (Documentation/Hardware/ControlUnit/OscillatorCircuit.tex [5]
-Overfull \hbox (15.34506pt too wide) in paragraph at lines 56--71
-[][] 
+) (Documentation/Hardware/ControlUnit/OscillatorCircuit.tex
+
+LaTeX Warning: Citation `AtMega328P' on page 5 undefined on input line 8.
+
+[5]
+
+LaTeX Warning: Citation `AtMega328P' on page 6 undefined on input line 43.
+
+
+Overfull \hbox (3.07585pt too wide) in paragraph at lines 53--54
+[] \TU/lmr/bx/n/10 Selected Crystal \TU/lmr/m/n/10 is TSX-3225 16.0000MF09Z-AC0
+
  []
 
 
-LaTeX Warning: Citation `AVR042' on page 6 undefined on input line 76.
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+[]$\OML/cmm/m/it/10 C[]$ \TU/lmr/m/n/10 and $\OML/cmm/m/it/10 C[]$ \TU/lmr/m/n/
+10 together act as load
+ []
+
+File: ./images/crystal_ckt.png Graphic file (type bmp)
+<./images/crystal_ckt.png>
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+\TU/lmr/m/n/10 components (i.e capacitors), each
+ []
+
+
+LaTeX Warning: Citation `AVR042' on page 7 undefined on input line 112.
 
 ) (Documentation/Hardware/ControlUnit/Reset.tex)
 (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex) [6]
-Overfull \vbox (117.54488pt too high) has occurred while \output is active []
-
-
-[7]) [7
+(Documentation/Hardware/Input.tex) [7]) [8] [8
 
 
 ]
@@ -758,10 +776,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Software|
  []
 
-) [8
+) [9
 
 
-] [8
+] [9
 
 
 ]
@@ -772,10 +790,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 PCB Design|
  []
 
-) [9
+) [10
 
 
-] [9
+] [10
 
 
 ]
@@ -786,20 +804,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Mechanical CAD|
  []
 
-) [10
+) [11
 
 
-] [10
+] [11
 
 
 ]
 \openout2 = `appendix.aux'.
 
- (appendix.tex (Documentation/Appendix/appendix_crystal.tex [11
+ (appendix.tex (Documentation/Appendix/appendix_crystal.tex [12
 
 
 ]
-[11]) [12] [12])
+[12]) [13] [13])
 Using TeX to sort glossary entries---this may take a while
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--58
@@ -812,9 +830,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
  []
 
 No file Documentation_main.acr.
-[13
+[14
 
-] [13] (Documentation_main.bbl) (Documentation_main.aux
+] [14] (Documentation_main.bbl) (Documentation_main.aux
 (ProjectDescription.aux) (ListOfTools.aux) (Hardware.aux) (Software.aux)
 (PcbDesign.aux) (MechanicalCAD.aux) (appendix.aux))
 
@@ -822,12 +840,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9430 strings out of 427836
- 133194 string characters out of 3155125
- 292373 words of memory out of 3000000
- 13122 multiletter control sequences out of 15000+200000
+ 9435 strings out of 427836
+ 133313 string characters out of 3155125
+ 288622 words of memory out of 3000000
+ 13126 multiletter control sequences out of 15000+200000
  5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 49i,13n,45p,2074b,650s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,13n,45p,2074b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Documentation_main.pdf (28 pages).
+Output written on Documentation_main.pdf (29 pages).
