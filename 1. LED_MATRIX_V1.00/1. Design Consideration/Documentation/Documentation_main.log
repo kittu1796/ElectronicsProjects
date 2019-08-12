@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  11 AUG 2019 23:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  12 AUG 2019 22:02
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -764,11 +764,24 @@ LaTeX Warning: Citation `AVR042' on page 7 undefined on input line 112.
 ) (Documentation/Hardware/ControlUnit/Reset.tex
 File: ./images/reset_ckt.png Graphic file (type bmp)
 <./images/reset_ckt.png>
- [7])
-(Documentation/Hardware/ControlUnit/PortAssignment.tex)
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+
+ []
+
+) (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex)) [8] [8
+(Documentation/Hardware/Input.tex)
+Overfull \vbox (3.97043pt too high) has occurred while \output is active []
+
+
+[8]) [8
 
 
 ]
@@ -794,7 +807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
  []
 
 (Documentation/PCBDesign/Introduction.tex) (Documentation/PCBDesign/Crystal.tex
-)) [10
+) (Documentation/PCBDesign/Reset.tex)) [10
 
 
 ] [10
@@ -844,10 +857,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9446 strings out of 427836
- 133611 string characters out of 3155125
- 288721 words of memory out of 3000000
- 13130 multiletter control sequences out of 15000+200000
+ 9513 strings out of 427836
+ 134591 string characters out of 3155125
+ 293472 words of memory out of 3000000
+ 13195 multiletter control sequences out of 15000+200000
  5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  49i,13n,45p,2074b,803s stack positions out of 5000i,500n,10000p,200000b,50000s

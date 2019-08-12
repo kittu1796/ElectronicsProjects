@@ -120,17 +120,6 @@ Connection ~ 1800 1400
 Wire Wire Line
 	1800 1400 2050 1400
 $Comp
-L power:+3V3 #PWR01
-U 1 1 5D50E48D
-P 2650 1000
-F 0 "#PWR01" H 2650 850 50  0001 C CNN
-F 1 "+3V3" H 2665 1173 50  0000 C CNN
-F 2 "" H 2650 1000 50  0001 C CNN
-F 3 "" H 2650 1000 50  0001 C CNN
-	1    2650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 5D50F088
 P 2650 1150
@@ -142,9 +131,7 @@ F 3 "" H 2650 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2800 1000 2    50   Input ~ 0
-MCU_3V3
-Wire Wire Line
-	2650 1000 2800 1000
+MCU_5V
 Wire Wire Line
 	2650 1150 2800 1150
 Text GLabel 1350 1050 1    50   Input ~ 0
@@ -179,7 +166,7 @@ Wire Notes Line
 Text Notes 2450 650  0    50   ~ 0
 Power Supply 
 Text GLabel 5550 1850 1    50   Input ~ 0
-MCU_3V3
+MCU_5V
 Text GLabel 5550 5200 3    50   Input ~ 0
 MCU_GND
 Wire Wire Line
@@ -211,7 +198,7 @@ F 4 "" H 1200 3200 50  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 Text GLabel 1200 2550 0    50   Input ~ 0
-MCU_3V3
+MCU_5V
 Text GLabel 2800 1150 2    50   Input ~ 0
 MCU_GND
 Text GLabel 1200 3450 0    50   Input ~ 0
@@ -243,4 +230,119 @@ Wire Notes Line
 	600  2300 600  3600
 Text Notes 650  2400 0    50   ~ 0
 Reset Block
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J1
+U 1 1 5D51A412
+P 2400 2600
+F 0 "J1" H 2450 2817 50  0000 C CNN
+F 1 "UART" H 2450 2726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 2400 2600 50  0001 C CNN
+F 3 "~" H 2400 2600 50  0001 C CNN
+	1    2400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5D51B0B6
+P 2450 3300
+F 0 "J2" H 2500 3617 50  0000 C CNN
+F 1 "ISP" H 2500 3526 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 2450 3300 50  0001 C CNN
+F 3 "~" H 2450 3300 50  0001 C CNN
+	1    2450 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2100 3200 0    50   Input ~ 0
+MISO
+Text GLabel 2100 3300 0    50   Input ~ 0
+RESET
+Text GLabel 2100 3400 0    50   Input ~ 0
+SCK
+Text GLabel 2900 3300 2    50   Input ~ 0
+MOSI
+Text GLabel 2900 3400 2    50   Input ~ 0
+MCU_GND
+Wire Wire Line
+	2100 3200 2250 3200
+Wire Wire Line
+	2250 3300 2100 3300
+Wire Wire Line
+	2100 3400 2250 3400
+Wire Wire Line
+	2750 3200 2900 3200
+Wire Wire Line
+	2750 3300 2900 3300
+Wire Wire Line
+	2750 3400 2900 3400
+Text GLabel 2900 3200 2    50   Input ~ 0
+MCU_5V
+$Comp
+L power:+5V #PWR01
+U 1 1 5D5214D8
+P 2650 1000
+F 0 "#PWR01" H 2650 850 50  0001 C CNN
+F 1 "+5V" H 2665 1173 50  0000 C CNN
+F 2 "" H 2650 1000 50  0001 C CNN
+F 3 "" H 2650 1000 50  0001 C CNN
+	1    2650 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1000 2800 1000
+Text GLabel 6300 2650 2    50   Input ~ 0
+MOSI
+Text GLabel 6300 2750 2    50   Input ~ 0
+MISO
+Text GLabel 6300 2850 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	6300 2850 6150 2850
+Wire Wire Line
+	6300 2750 6150 2750
+Wire Wire Line
+	6300 2650 6150 2650
+Text GLabel 2850 2600 2    50   Input ~ 0
+MCU_5V
+Text GLabel 2850 2700 2    50   Input ~ 0
+MCU_GND
+Text GLabel 2050 2600 0    50   Input ~ 0
+TXD
+Text GLabel 2050 2700 0    50   Input ~ 0
+RXD
+Wire Wire Line
+	2050 2600 2200 2600
+Wire Wire Line
+	2200 2700 2050 2700
+Wire Wire Line
+	2700 2600 2850 2600
+Wire Wire Line
+	2850 2700 2700 2700
+Text GLabel 6350 4150 2    50   Input ~ 0
+TXD
+Text GLabel 6350 4050 2    50   Input ~ 0
+RXD
+Wire Wire Line
+	6350 4050 6150 4050
+Wire Wire Line
+	6150 4150 6350 4150
+Wire Notes Line
+	1800 2350 1800 2850
+Wire Notes Line
+	1800 2850 3300 2850
+Wire Notes Line
+	3300 2850 3300 2350
+Wire Notes Line
+	3300 2350 1800 2350
+Wire Notes Line
+	1800 3500 3350 3500
+Wire Notes Line
+	3350 3500 3350 2950
+Wire Notes Line
+	3350 2950 1800 2950
+Wire Notes Line
+	1800 2950 1800 3500
+Text Notes 2600 2450 0    50   ~ 0
+USB to TTL Header
+Text Notes 1850 3050 0    50   ~ 0
+ISP Header
 $EndSCHEMATC

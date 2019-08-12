@@ -43,6 +43,7 @@
 \contentsline {section}{\numberline {5}PCB Design}{10}
 \contentsline {subsection}{\numberline {5.1}Introduction}{10}
 \contentsline {subsection}{\numberline {5.2}Crystal}{10}
+\contentsline {subsection}{\numberline {5.3}Reset}{10}
 \contentsline {section}{\numberline {6}Mechanical CAD}{11}
 \contentsline {subsection}{\numberline {6.1}Introduction}{11}
 \contentsline {section}{\numberline {A}Crystal}{12}
