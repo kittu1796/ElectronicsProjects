@@ -24,29 +24,35 @@
 \contentsline {paragraph}{Reset}{7}
 \contentsline {paragraph}{R2}{8}
 \contentsline {paragraph}{C3}{8}
-\contentsline {subsubsection}{\numberline {3.2.4}Port Assignment}{8}
-\contentsline {subsubsection}{\numberline {3.2.5}Voltage Level Indicator}{8}
-\contentsline {subsubsection}{\numberline {3.2.6}Display Intensity controller}{8}
-\contentsline {subsection}{\numberline {3.3}Power Supply}{8}
-\contentsline {subsubsection}{\numberline {3.3.1}Power Switch}{8}
-\contentsline {subsubsection}{\numberline {3.3.2}Capacitive Power Supply}{8}
-\contentsline {subsubsection}{\numberline {3.3.3}Filter}{8}
-\contentsline {subsubsection}{\numberline {3.3.4}voltage Regulation}{8}
-\contentsline {subsubsection}{\numberline {3.3.5}Current Consumption}{8}
-\contentsline {subsection}{\numberline {3.4}LED Matrix}{8}
-\contentsline {subsubsection}{\numberline {3.4.1}LED}{8}
-\contentsline {subsubsection}{\numberline {3.4.2}Transistors}{8}
-\contentsline {subsubsection}{\numberline {3.4.3}Shift Registers}{8}
-\contentsline {subsection}{\numberline {3.5}Input}{8}
-\contentsline {section}{\numberline {4}Software}{9}
-\contentsline {subsection}{\numberline {4.1}Introduction}{9}
-\contentsline {section}{\numberline {5}PCB Design}{10}
-\contentsline {subsection}{\numberline {5.1}Introduction}{10}
-\contentsline {subsection}{\numberline {5.2}Crystal}{10}
-\contentsline {subsection}{\numberline {5.3}Reset}{10}
-\contentsline {section}{\numberline {6}Mechanical CAD}{11}
-\contentsline {subsection}{\numberline {6.1}Introduction}{11}
-\contentsline {section}{\numberline {A}Crystal}{12}
-\contentsline {paragraph}{Selecting}{12}
-\contentsline {section}{\numberline {B}Title of app 22}{13}
-\contentsline {section}{Acronyms}{14}
+\contentsline {subsubsection}{\numberline {3.2.4}Programming}{8}
+\contentsline {paragraph}{USART}{8}
+\contentsline {paragraph}{\gls {icsp}}{8}
+\contentsline {subsubsection}{\numberline {3.2.5}Port Assignment}{9}
+\contentsline {subsubsection}{\numberline {3.2.6}Voltage Level Indicator}{9}
+\contentsline {subsubsection}{\numberline {3.2.7}Display Intensity controller}{9}
+\contentsline {subsection}{\numberline {3.3}Power Supply}{9}
+\contentsline {subsubsection}{\numberline {3.3.1}Power Switch}{9}
+\contentsline {subsubsection}{\numberline {3.3.2}Capacitive Power Supply}{9}
+\contentsline {subsubsection}{\numberline {3.3.3}Filter}{9}
+\contentsline {subsubsection}{\numberline {3.3.4}voltage Regulation}{9}
+\contentsline {subsubsection}{\numberline {3.3.5}Current Consumption}{9}
+\contentsline {subsection}{\numberline {3.4}LED Matrix}{9}
+\contentsline {subsubsection}{\numberline {3.4.1}LED}{9}
+\contentsline {subsubsection}{\numberline {3.4.2}Transistors}{9}
+\contentsline {subsubsection}{\numberline {3.4.3}Shift Registers}{9}
+\contentsline {subsection}{\numberline {3.5}Input}{9}
+\contentsline {section}{\numberline {4}Software}{10}
+\contentsline {subsection}{\numberline {4.1}Introduction}{10}
+\contentsline {section}{\numberline {5}PCB Design}{11}
+\contentsline {subsection}{\numberline {5.1}Introduction}{11}
+\contentsline {subsection}{\numberline {5.2}Crystal}{11}
+\contentsline {subsection}{\numberline {5.3}Reset}{11}
+\contentsline {subsection}{\numberline {5.4}Programming}{11}
+\contentsline {subsubsection}{\numberline {5.4.1}USART}{11}
+\contentsline {subsubsection}{\numberline {5.4.2}\gls {icsp}}{11}
+\contentsline {section}{\numberline {6}Mechanical CAD}{12}
+\contentsline {subsection}{\numberline {6.1}Introduction}{12}
+\contentsline {section}{\numberline {A}Crystal}{13}
+\contentsline {paragraph}{Selecting}{13}
+\contentsline {section}{\numberline {B}Title of app 22}{14}
+\contentsline {section}{Acronyms}{15}

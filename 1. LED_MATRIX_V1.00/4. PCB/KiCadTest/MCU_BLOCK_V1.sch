@@ -1,30 +1,20 @@
 EESchema Schematic File Version 4
 LIBS:MCU_BLOCK_V1-cache
+LIBS:BLE_module_V1.0-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
-Title ""
+Sheet 1 2
+Title "Standalone_Atmega328P_circuit"
 Date ""
-Rev ""
-Comp ""
+Rev "V0.1"
+Comp "AK's Project"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U1
-U 1 1 5D4A4194
-P 5550 3550
-F 0 "U1" H 5100 5050 50  0000 C CNN
-F 1 "ATmega328P-AU" H 5900 2100 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5550 3550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5550 3550 50  0001 C CNN
-	1    5550 3550
-	1    0    0    -1  
-$EndComp
 Text GLabel 6300 2950 2    50   Input ~ 0
 XTAL1
 Text GLabel 6300 3050 2    50   Input ~ 0
@@ -341,8 +331,25 @@ Wire Notes Line
 	3350 2950 1800 2950
 Wire Notes Line
 	1800 2950 1800 3500
-Text Notes 2600 2450 0    50   ~ 0
+Text Notes 2550 2450 0    50   ~ 0
 USB to TTL Header
 Text Notes 1850 3050 0    50   ~ 0
 ISP Header
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U1
+U 1 1 5D4A4194
+P 5550 3550
+F 0 "U1" H 5100 5050 50  0000 C CNN
+F 1 "ATmega328P-AU" H 5900 2100 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5550 3550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 650  3800 1200 1300
+U 5D531E68
+F0 "Input_Module" 50
+F1 "RD_Input_module.sch" 50
+$EndSheet
 $EndSCHEMATC

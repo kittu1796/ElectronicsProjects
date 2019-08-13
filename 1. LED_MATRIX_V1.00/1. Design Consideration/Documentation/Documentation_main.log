@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  12 AUG 2019 22:02
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  13 AUG 2019 22:05
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -774,14 +774,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
  []
 
+) (Documentation/Hardware/ControlUnit/Programming.tex
+Underfull \hbox (badness 6477) in paragraph at lines 5--6
+\TU/lmr/m/n/10 applications 1. Programming the []MCU 2.
+ []
+
+File: ./images/programming_berg.png Graphic file (type bmp)
+<./images/programming_berg.png>
 ) (Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex)
-Overfull \vbox (3.97043pt too high) has occurred while \output is active []
-
-
-[8]) [8
+(Documentation/Hardware/Input.tex) [8]) [9] [9
 
 
 ]
@@ -792,10 +795,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Software|
  []
 
-) [9
+) [10
 
 
-] [9
+] [10
 
 
 ]
@@ -807,10 +810,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
  []
 
 (Documentation/PCBDesign/Introduction.tex) (Documentation/PCBDesign/Crystal.tex
-) (Documentation/PCBDesign/Reset.tex)) [10
+) (Documentation/PCBDesign/Reset.tex) (Documentation/PCBDesign/Programming.tex)
+
+Overfull \vbox (1.11292pt too high) has occurred while \output is active []
 
 
-] [10
+[11
+
+
+]) [11
 
 
 ]
@@ -821,20 +829,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 [][]\TU/lmr/bx/n/20.74 Mechanical CAD|
  []
 
-) [11
+) [12
 
 
-] [11
+] [12
 
 
 ]
 \openout2 = `appendix.aux'.
 
- (appendix.tex (Documentation/Appendix/appendix_crystal.tex [12
+ (appendix.tex (Documentation/Appendix/appendix_crystal.tex [13
 
 
 ]
-[12]) [13] [13])
+[13]) [14] [14])
 Using TeX to sort glossary entries---this may take a while
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--58
@@ -847,9 +855,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
  []
 
 No file Documentation_main.acr.
-[14
+[15
 
-] [14] (Documentation_main.bbl) (Documentation_main.aux
+] [15] (Documentation_main.bbl) (Documentation_main.aux
 (ProjectDescription.aux) (ListOfTools.aux) (Hardware.aux) (Software.aux)
 (PcbDesign.aux) (MechanicalCAD.aux) (appendix.aux))
 
@@ -857,12 +865,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9513 strings out of 427836
- 134591 string characters out of 3155125
- 293472 words of memory out of 3000000
- 13195 multiletter control sequences out of 15000+200000
+ 9586 strings out of 427836
+ 135856 string characters out of 3155125
+ 290649 words of memory out of 3000000
+ 13262 multiletter control sequences out of 15000+200000
  5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  49i,13n,45p,2074b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Documentation_main.pdf (29 pages).
+Output written on Documentation_main.pdf (30 pages).

@@ -1,30 +1,20 @@
 EESchema Schematic File Version 4
 LIBS:MCU_BLOCK_V1-cache
+LIBS:BLE_module_V1.0-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Standalone_Atmega328P_circuit"
 Date ""
-Rev ""
-Comp ""
+Rev "V0.1"
+Comp "AK's Project"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U1
-U 1 1 5D4A4194
-P 5550 3550
-F 0 "U1" H 5100 5050 50  0000 C CNN
-F 1 "ATmega328P-AU" H 5900 2100 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5550 3550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5550 3550 50  0001 C CNN
-	1    5550 3550
-	1    0    0    -1  
-$EndComp
 Text GLabel 6300 2950 2    50   Input ~ 0
 XTAL1
 Text GLabel 6300 3050 2    50   Input ~ 0
@@ -231,10 +221,10 @@ Wire Notes Line
 Text Notes 650  2400 0    50   ~ 0
 Reset Block
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J?
+L Connector_Generic:Conn_02x02_Odd_Even J1
 U 1 1 5D51A412
 P 2400 2600
-F 0 "J?" H 2450 2817 50  0000 C CNN
+F 0 "J1" H 2450 2817 50  0000 C CNN
 F 1 "UART" H 2450 2726 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 2400 2600 50  0001 C CNN
 F 3 "~" H 2400 2600 50  0001 C CNN
@@ -242,10 +232,10 @@ F 3 "~" H 2400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 5D51B0B6
 P 2450 3300
-F 0 "J?" H 2500 3617 50  0000 C CNN
+F 0 "J2" H 2500 3617 50  0000 C CNN
 F 1 "ISP" H 2500 3526 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 2450 3300 50  0001 C CNN
 F 3 "~" H 2450 3300 50  0001 C CNN
@@ -277,10 +267,10 @@ Wire Wire Line
 Text GLabel 2900 3200 2    50   Input ~ 0
 MCU_5V
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR01
 U 1 1 5D5214D8
 P 2650 1000
-F 0 "#PWR?" H 2650 850 50  0001 C CNN
+F 0 "#PWR01" H 2650 850 50  0001 C CNN
 F 1 "+5V" H 2665 1173 50  0000 C CNN
 F 2 "" H 2650 1000 50  0001 C CNN
 F 3 "" H 2650 1000 50  0001 C CNN
@@ -341,8 +331,19 @@ Wire Notes Line
 	3350 2950 1800 2950
 Wire Notes Line
 	1800 2950 1800 3500
-Text Notes 2600 2450 0    50   ~ 0
+Text Notes 2550 2450 0    50   ~ 0
 USB to TTL Header
 Text Notes 1850 3050 0    50   ~ 0
 ISP Header
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U1
+U 1 1 5D4A4194
+P 5550 3550
+F 0 "U1" H 5100 5050 50  0000 C CNN
+F 1 "ATmega328P-AU" H 5900 2100 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5550 3550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5550 3550 50  0001 C CNN
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
