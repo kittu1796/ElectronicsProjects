@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  13 AUG 2019 22:05
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6630 64-bit) (preloaded format=xelatex 2018.4.30)  18 AUG 2019 10:48
 entering extended mode
 **./Documentation_main.tex
 (Documentation_main.tex
@@ -781,10 +781,11 @@ Underfull \hbox (badness 6477) in paragraph at lines 5--6
 
 File: ./images/programming_berg.png Graphic file (type bmp)
 <./images/programming_berg.png>
-) (Documentation/Hardware/ControlUnit/PortAssignment.tex)
+) (Documentation/Hardware/ControlUnit/BypassCapacitor.tex)
+(Documentation/Hardware/ControlUnit/PortAssignment.tex)
 (Documentation/Hardware/ControlUnit/VoltageLevelIndicator.tex))
 (Documentation/Hardware/PowerSupply.tex) (Documentation/Hardware/LEDMatrix.tex)
-(Documentation/Hardware/Input.tex) [8]) [9] [9
+(Documentation/Hardware/Input.tex) [8] [9]) [9
 
 
 ]
@@ -865,9 +866,9 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9586 strings out of 427836
- 135856 string characters out of 3155125
- 290649 words of memory out of 3000000
+ 9589 strings out of 427836
+ 135981 string characters out of 3155125
+ 290556 words of memory out of 3000000
  13262 multiletter control sequences out of 15000+200000
  5435 words of font info for 34 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191

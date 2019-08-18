@@ -27,9 +27,10 @@
 \contentsline {subsubsection}{\numberline {3.2.4}Programming}{8}
 \contentsline {paragraph}{USART}{8}
 \contentsline {paragraph}{\gls {icsp}}{8}
-\contentsline {subsubsection}{\numberline {3.2.5}Port Assignment}{9}
-\contentsline {subsubsection}{\numberline {3.2.6}Voltage Level Indicator}{9}
-\contentsline {subsubsection}{\numberline {3.2.7}Display Intensity controller}{9}
+\contentsline {subsubsection}{\numberline {3.2.5}Bypass Capacitor}{9}
+\contentsline {subsubsection}{\numberline {3.2.6}Port Assignment}{9}
+\contentsline {subsubsection}{\numberline {3.2.7}Voltage Level Indicator}{9}
+\contentsline {subsubsection}{\numberline {3.2.8}Display Intensity controller}{9}
 \contentsline {subsection}{\numberline {3.3}Power Supply}{9}
 \contentsline {subsubsection}{\numberline {3.3.1}Power Switch}{9}
 \contentsline {subsubsection}{\numberline {3.3.2}Capacitive Power Supply}{9}
